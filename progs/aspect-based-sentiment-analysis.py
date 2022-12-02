@@ -1,53 +1,47 @@
-from pyabsa import available_checkpoints
-
-# The results of available_checkpoints() depend on the PyABSA version
-with open('checkpoint_map.json', mode="w") as fout:
-    checkpoint_map = available_checkpoints(from_local=False)  # show available checkpoints of PyABSA of current version 
-    fout.write(str(checkpoint_map))
-
-#exit()
+# Adapted from:
+# install pyabsa beforehand : https://github.com/yangheng95/PyABSA
+# file: ensemble_classification_inference.py
+# time: 05/11/2022 19:48
+# author: yangheng <hy345@exeter.ac.uk>
+# github: https://github.com/yangheng95
+# GScholar: https://scholar.google.com/citations?user=NPq5a_0AAAAJ&hl=en
+# ResearchGate: https://www.researchgate.net/profile/Heng-Yang-17/research
+# Copyright (C) 2022. All Rights Reserved.
 import pandas as pd
-#from pyabsa.functional import ABSADatasetList
-#from pyabsa.functional import ATEPCCheckpointManager
-from pyabsa import AspectTermExtraction as ATEPC
+import re
+from pyabsa import AspectPolarityClassification as APC
+# to check available models
+from pyabsa import available_checkpoints
+ckpts = available_checkpoints()
 
+# loading model
+# sent_classifier = APC.SentimentClassifier('fast_lcf_bert_Multilingual_acc_82.66_f1_82.06.zip')
+sent_classifier = APC.SentimentClassifier('multilingual')
+# sent_classifier = APC.SentimentClassifier('english')
+# sent_classifier = APC.SentimentClassifier('chinese')
 
-
+# load sentences from csv file (with Text field)
 def get_sentences(filepath):
     df = pd.read_csv(filepath, sep="\t")
     return df.Text.to_list()
 
+# English
+fn = './English_fiction_woman_forR.txt'
+fn2 = fn+'.asp.txt'
+w = 'woman'
 
-examples = ['But the staff was so nice to us .',
-            'But the staff was so horrible to us .',
-            r'Not only was the food outstanding , but the little ` perks \' were great .',
-            'It took half an hour to get our check , which was perfect since we could sit , have drinks and talk !',
-            'It was pleasantly uncrowded , the service was delightful , the garden adorable , '
-            'the food -LRB- from appetizers to entrees -RRB- was delectable .',
-            'How pretentious and inappropriate for MJ Grill to claim that it provides power lunch and dinners !'
-            ]
-examples = get_sentences('./English_fiction_woman_forR.txt')
-print(examples[0:5], len(examples))
+# French
+fn = './French_news_2020.txt'
+fn2 = fn+'.asp.txt'
+w = 'femme'
 
-aspect_extractor = ATEPC.AspectExtractor('multilingual',
-                                         auto_device=True,  # False means load model on CPU
-                                         cal_perplexity=True,
-                                         )
+#
 
-inference_source = ATEPC.ATEPCDatasetList.SemEval
-atepc_result = aspect_extractor.batch_predict(inference_source=examples, #inference_source,
-                                              save_result=True,
-                                              print_result=True,  # print the result
-                                              pred_sentiment=True,  # Predict the sentiment of extracted aspect terms
-                                              )
+examples = get_sentences(fn)
+examples = [re.sub(w, "[B-ASP]" + w + "[E-ASP]", s, flags=re.I) for s in examples]
+with open(fn2, mode="w") as fout:
+    fout.write("\n".join(examples[0:100]))
 
-print(atepc_result)
-
-#inference_source = ABSADatasetList.Restaurant14
-#aspect_extractor = ATEPCCheckpointManager.get_aspect_extractor(checkpoint='multilingual')
-#atepc_result = aspect_extractor.extract_aspect(inference_source=examples,
-#                                               save_result=True,
-#                                               print_result=True,  # print the result
-#                                               pred_sentiment=True,  # Predict the sentiment of extracted aspect terms
-#                                               )
-#print(atepc_result)
+#res = sent_classifier.predict(examples[0:20])#, save_result=True
+sent_classifier.batch_predict(fn2, save_result=True)
+#print(res)
