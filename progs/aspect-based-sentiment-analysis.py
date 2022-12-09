@@ -223,18 +223,23 @@ def generate_sentiment_csv_file(fn, fn2, word):
                 log.error("error : " + str(e))
                 return False
 
+
+
+inputdir = '../corpora/'
+
 # English
 filetype='csv'
 filenb='one'
-fn = '../corpora/English_fiction_woman_forR.txt'
+fn = inputdir + 'English_fiction_woman_forR.txt'
 fn2 = fn+'.asp.txt'
 w = 'woman'
 
 
 # French (json)
+
 filetype='csv'
 filenb='multiple'
-files = glob('corpora/lemonde_1945_2020.*.sample.30.csv') 
+files = glob(inputdir+ 'lemonde_1945_2020.*.sample.30.csv') 
 words = ["femme","homme","fille","garçon","épouse","mari","mère","père","fils","soeur","frère","tante","oncle","femmes","hommes","filles","garçons","épouses","époux","maris","mères","pères","soeurs","frères","tantes","oncles"]
 
 
@@ -263,8 +268,8 @@ def main():
         elif filetype=='csv' and filenb=='multiple':
             for fn in files:
                 word = fn.split('.')[1]
-                if os.path.isfile('corpora/apc_inference.result.json.'+ word + '.json'):
-                    log.info('corpora/apc_inference.result.json.'+ word + '.json already generated')
+                if os.path.isfile(inputdir+'apc_inference.result.json.'+ word + '.json'):
+                    log.info(inputdir+'apc_inference.result.json.'+ word + '.json already generated')
                     continue
                 fn2 = fn+'.asp.txt'
                 examples = get_sentences_csv(fn)
@@ -282,8 +287,8 @@ def main():
                     contents = fin.read()
                     data = json.loads(contents)
                     print(data)
-                    os.rename('apc_inference.result.json','corpora/apc_inference.result.json.'+ word + '.json')
-                    generate_sentiment_csv_file('corpora/apc_inference.result.json.'+ word + '.json',fn, word)
+                    os.rename('apc_inference.result.json',inputdir+'apc_inference.result.json.'+ word + '.json')
+                    generate_sentiment_csv_file(inputdir + 'apc_inference.result.json.'+ word + '.json',fn, word)
     except Exception as e:
         var = traceback.format_exc()
         log.error("Error : " + var)  
@@ -294,7 +299,7 @@ def main():
 
 ######### main
 if __name__ == '__main__':
-    log_dir = './log/'
+    log_dir = '../log/'
     os.makedirs(log_dir, exist_ok=True) 
     logstream = 'file'
     if logstream == 'file':
