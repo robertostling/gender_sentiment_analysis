@@ -130,7 +130,7 @@ def main():
     # define task(s) and words
     #tasks = ['sentiment','emotion','hate_speech','all']
     task = 'all' # solr_query, get_sentences, sample_sentences
-    outputdir = './corpora/'
+    outputdir = '../corpora/'
     os.makedirs(outputdir, exist_ok=True)
     os.makedirs(log_dir, exist_ok=True)
     words = ["femme","homme","fille","garçon","épouse","mari","mère","père","fils","soeur","frère","tante","oncle","femmes","hommes","filles","garçons","épouses","époux","maris","mères","pères","soeurs","frères","tantes","oncles"]
@@ -245,7 +245,7 @@ def main():
         print("*"*10 + "Sample sentences from json files, check outputdir : " + outputdir)
         log.info("Sample sentences from json files"+ ", check outputdir : " + outputdir)
 
-        files = glob('corpora/lemonde_1945_2020.*.json') 
+        files = glob(outputdir +solr_collection +'.*.json') 
         for fn in files:
             word = fn.split('.')[1]
             fn2 = fn+'.asp.txt'
@@ -265,7 +265,7 @@ def main():
 
 ######### main
 if __name__ == '__main__':
-    log_dir = './log/'
+    log_dir = '../log/'
     os.makedirs(log_dir, exist_ok=True) 
     logstream = 'file'
     if logstream == 'file':
