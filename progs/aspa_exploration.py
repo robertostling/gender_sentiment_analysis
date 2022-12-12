@@ -320,7 +320,7 @@ genres = ['FICTION','NEWS']
 polarity = ['NEGATIVE', 'NEUTRAL', 'POSITIVE']
 
 st.set_page_config(layout = "wide")
-st.header("Aspect-based Sentiment Analysis applied to gender lexemes in 5 languages, 2 genres, diachronically")
+st.header("Aspect-based Sentiment Analysis applied to gender lexemes in 5 languages, 2 genres, from 1950 to now")
 lang = st.sidebar.selectbox('Language',langs)
 if lang != 'Choose a language':
     # display available corpora
@@ -346,7 +346,7 @@ if lang != 'Choose a language':
         word = st.sidebar.selectbox('Word Pairs',words)
 
         # last step : generate visualization and data
-        if word != 'Choose a word':
+        if word != 'Choose a word pair':
             st.sidebar.write(credits, unsafe_allow_html=True)
             #print(words.index(word)-1)
             wordlist = re.split(r"[,-]", word.strip())
