@@ -311,6 +311,7 @@ credits='''
 
 
 path = '../corpora/'
+cworkdir = os.getcwd()
 wordspairs= {'French':['femme,femmes-homme,hommes','fille,filles-garçon,garçons', 'épouse,femme,épouses-mari,époux','mère,mères-père,pères','fille,filles-fils','soeur,soeurs-frère,frères','tante, tantes-oncle, oncles'], 'English':[]}
 langcorpora={'French':{'FICTION': '', 'NEWS': 'lemonde_1945_2020'}, 'English':{'FICTION':'English_fiction_woman_forR.txt','NEWS':''}}
 langs=[k for k in langcorpora]
@@ -354,9 +355,9 @@ if lang != 'Choose a language':
             dflist=[]
             with st.expander("Distribution and Evolution of Sentiment Polarity"):
                 for w in wordlist:
-                    wordpath = path + corpus.split(':')[1] + "." + w + ".sentiment.csv"
+                    wordpath = cworkdir + '/'+ path + corpus.split(':')[1] + "." + w + ".sentiment.csv"
                     if os.path.isfile(wordpath) is False:
-                        st.write("Error loading file : " + wordpath + ". Skipping this word")
+                        st.write("Error loading file : [" + wordpath + "]. Skipping this word")
                         continue
                     else:
                         df = load_data(wordpath)
