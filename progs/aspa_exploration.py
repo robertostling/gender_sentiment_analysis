@@ -355,7 +355,11 @@ if lang != 'Choose a language':
             dflist=[]
             with st.expander("Distribution and Evolution of Sentiment Polarity"):
                 for w in wordlist:
-                    wordpath = cworkdir + '/'+ path + corpus.split(':')[1] + "." + w + ".sentiment.csv"
+                    # depends if we are on streamlit cloud
+                    if cworkdir =='/app/gender_sentiment_analysis':
+                        wordpath = cworkdir + '/'+ path[2:] + corpus.split(':')[1] + "." + w + ".sentiment.csv"
+                    else:
+                        wordpath = path + corpus.split(':')[1] + "." + w + ".sentiment.csv"
                     if os.path.isfile(wordpath) is False:
                         st.write("Error loading file : [" + wordpath + "]. Skipping this word")
                         continue
