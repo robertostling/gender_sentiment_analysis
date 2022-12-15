@@ -48,8 +48,9 @@ def main():
 
     for filename in sorted(filenames):
         for date, source, sentence in get_sentences(filename):
+            date = f'{date[:4]}-{date[4:6]}-{date[6:]}'
             sentence = ' '.join(sentence.split())
-            print(f'{date[:4]}\t{source}\t{sentence}')
+            print(f'{date}\t{source}\t{sentence}')
 
 if __name__ == '__main__':
     main()
