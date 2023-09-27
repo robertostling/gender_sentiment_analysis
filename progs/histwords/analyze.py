@@ -4,6 +4,8 @@ from pprint import pprint
 import os.path
 
 from matplotlib import pyplot as plt
+from cycler import cycler
+
 import numpy as np
 import pinyin
 
@@ -64,16 +66,17 @@ def estimate_trajectories(sentiment_path, histwords_path, years, target_words):
 
 
 def do_chinese(histwords_path):
-    target_words = ('女人 男人 妻子 丈夫 母亲 母親 父亲 父親 女儿 女兒 '
-                    '儿子 兒子').split()
+    target_words = ('妻子 丈夫 母亲 父亲 女儿 '
+                    '儿子 好人 坏人').split()
     result = estimate_trajectories(
             'chinese', os.path.join(histwords_path, 'chi-sim-all', 'sgns'),
             [str(year) for year in range(1950, 2000, 10)], target_words)
     return result
 
 def do_english(histwords_path):
-    target_words = (#'woman man wife husband mother father daughter son '
-                    'women men wives husbands mothers fathres daughters sons '
+    target_words = (#'woman man '
+                    'wife husband mother father daughter son angel devil '
+                    #'women men wives husbands mothers fathres daughters sons '
                     #'good bad horrible terrible awesome fantastic great awful '
                     #'kind caring selfish worthless '
                     ).split()
@@ -83,9 +86,7 @@ def do_english(histwords_path):
     return result
 
 
-from cycler import cycler
-
-def plot_result(result):
+def plot_result(result, filename=None):
     default_cycler = (
             cycler(color=['r', 'g', 'b', 'y', 'c', 'm', 'y', 'k']) +
             cycler(linestyle=['-', '--', ':', '-.', '-', '--', ':', '-.']))
@@ -98,10 +99,15 @@ def plot_result(result):
         ys = [result[x][word] for x in xs]
         plt.plot(xs, ys, label=pinyin.get(word))
     plt.legend()
+    if filename:
+        plt.savefig(filename)
     plt.show()
 
-result = do_chinese(sys.argv[1])
-#result = do_english(sys.argv[1])
+if False:
+    result = do_chinese(sys.argv[1])
+    plot_result(result, 'chinese.pdf')
+else:
+    result = do_english(sys.argv[1])
+    plot_result(result, 'english.pdf')
 pprint(result)
-plot_result(result)
 
