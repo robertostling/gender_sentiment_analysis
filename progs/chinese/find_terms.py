@@ -22,18 +22,18 @@ def find_forms(filename):
     with open(filename) as f:
         for line in f:
             line = line.rstrip('\n')
-            date, source, sentence = line.split('\t')
+            date, source, author, gender, sentence = line.split('\t')
             for concept, forms in FORM_TABLE.items():
                 for form in forms:
                     if form in sentence:
-                        yield date[:4], concept, form, source, sentence
+                        yield date[:4], concept, form, author, gender, source, sentence
                         break
 
 
 def main():
-    print('Concept\tForm\tYear\tRegister\tSource\tText')
-    for year, concept, form, source, sentence in find_forms(sys.argv[1]):
-        print('\t'.join([concept, form, year, 'NEWS', source, sentence]))
+    print('Concept\tForm\tYear\tRegister\tAuthor\tAuthorGender\tSource\tText')
+    for year, concept, form, author, gender, source, sentence in find_forms(sys.argv[1]):
+        print('\t'.join([concept, form, year, 'NEWS', author, gender, source, sentence]))
 
 
 if __name__ == '__main__':
