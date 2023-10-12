@@ -29,7 +29,7 @@ def annotate(row):
     text = row['Text'] if 'Text' in row else row['Sentence']
 
     if target.casefold() not in text.casefold():
-        print(f'Line {line_no+1}: {target} not in {text}')
+        print(f'{target} not in {text}')
         return False
 
     if chat:
