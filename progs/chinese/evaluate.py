@@ -23,6 +23,9 @@ def evaluate_classifier(checkpoint, data):
     for sentiment, form, text in data:
         i = text.index(form)
         assert i >= 0
+        # The Chinese training data seems to be split into separate
+        # characters, but this did not significantly change predictions
+        #text = ' '.join(text)
         tagged_text = text[:i] + '[B-ASP]' + form + '[E-ASP]' \
                     + text[i+len(form):]
         prediction = sentiment_classifier.predict(
@@ -41,12 +44,18 @@ def evaluate_classifier(checkpoint, data):
 
 
 data = read_data(sys.argv[1])
-custom = evaluate_classifier(
-        "fast_lsa_t_v2_erc_custom_eng_acc_86.47_f1_80.46", data)
-builtin = evaluate_classifier("multilingual", data)
+chinese = evaluate_classifier("chinese", data)
+#custom = evaluate_classifier(
+#        "fast_lsa_t_v2_erc_custom_eng_acc_86.47_f1_80.46", data)
+#builtin = evaluate_classifier("multilingual", data)
 
-print("Custom model")
-pprint(custom)
-print("Builtin multilingual model")
-pprint(builtin)
+print("Builtin Chinese model")
+pprint(chinese)
+
+#print("Custom model")
+#pprint(custom)
+#
+#print("Builtin multilingual model")
+#pprint(builtin)
+
 
