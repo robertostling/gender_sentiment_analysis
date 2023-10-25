@@ -6,6 +6,13 @@ import csv
 import numpy as np
 import sklearn.metrics
 
+from examples import few_shot_examples
+
+all_examples = {
+        example[-1]
+        for language, examples in few_shot_examples.items()
+        for example in examples}
+
 filename, gold_label, pred_label = sys.argv[1:]
 
 with open(filename, newline='') as f:
@@ -22,6 +29,10 @@ y_pred = []
 confusion = np.zeros((len(labels), len(labels)), dtype=int)
 #for gold, pred, target, text in data:
 for row in rows:
+    text = row['Sentence'] if 'Sentence' in row else row['Text']
+    if text in all_examples:
+        print('Skipping example from few-shot data')
+        continue
     gold = row[gold_label]
     pred = row[pred_label]
     if gold not in ('Negative', 'Positive', 'Neutral'): continue
