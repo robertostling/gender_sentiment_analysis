@@ -30,7 +30,6 @@ seed = 12345
 random.seed(seed)
 output_filename = f'{filename}.{model}.{seed}.{n_samples}'
 
-
 def generate_chat_prompt(examples, query_sentences):
     messages = [
         dict(
