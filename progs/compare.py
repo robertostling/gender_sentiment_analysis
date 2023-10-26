@@ -1,3 +1,25 @@
+"""Uses for paper:
+
+python3 compare.py Manual gpt-3.5-turbo ../data/chinese_first300.tsv ../data/chinese_original.tsv.gpt-3.5-turbo.12345.0 
+[[  6  17   0]
+ [  9 102  25]
+ [  0  12  22]]
+Accuracy: 67.4%
+F1: [0.31578947 0.76404494 0.54320988]
+Macro F1: 0.5410147646825485
+
+python3 compare.py Manual gpt-4 ../data/chinese_first300.tsv.gpt-4.12345.0 ../data/chinese_original.tsv.gpt-4.12345.0 
+Skipped 12 examples from few-shot data
+Data points in evaluation: 193
+[[14  9  0]
+ [24 87 25]
+ [ 0  9 25]]
+Accuracy: 65.3%
+F1: [0.45901639 0.7219917  0.5952381 ]
+Macro F1: 0.5920820633085104
+
+
+"""
 import sys
 from pprint import pprint
 from collections import Counter
