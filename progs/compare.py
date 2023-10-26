@@ -13,12 +13,15 @@ all_examples = {
         for language, examples in few_shot_examples.items()
         for example in examples}
 
-filename, gold_label, pred_label = sys.argv[1:]
 
-with open(filename, newline='') as f:
-    reader = csv.DictReader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
-    rows = list(reader)
-    #data = [line.strip().split('\t') for line in f]
+gold_label, pred_label, *filenames = sys.argv[1:]
+
+rows = []
+
+for filename in filenames:
+    with open(filename, newline='') as f:
+        reader = csv.DictReader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
+        rows.extend(list(reader))
 
 
 labels = 'Negative', 'Neutral', 'Positive'
@@ -28,10 +31,11 @@ y_true = []
 y_pred = []
 confusion = np.zeros((len(labels), len(labels)), dtype=int)
 #for gold, pred, target, text in data:
+n_fewshot = 0
 for row in rows:
     text = row['Sentence'] if 'Sentence' in row else row['Text']
     if text in all_examples:
-        print('Skipping example from few-shot data')
+        n_fewshot += 1
         continue
     gold = row[gold_label]
     pred = row[pred_label]
@@ -43,6 +47,8 @@ for row in rows:
     y_pred.append(pred)
     confusion[(gold, pred)] += 1
 
+print(f'Skipped {n_fewshot} examples from few-shot data')
+print(f'Data points in evaluation: {confusion.sum()}')
 print(confusion)
 accuracy = (confusion * np.eye(len(labels))).sum() / (confusion.sum())
 print(f'Accuracy: {100*accuracy:.1f}%')
