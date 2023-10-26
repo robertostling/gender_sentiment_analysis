@@ -1,0 +1,301 @@
+Concept	Form	Year	Register	Author	AuthorGender	Source	Text	sentiment	confidence	Sentiment_Neutral	Sentiment_Positive	Gender	ConceptPair	gpt-3.5-turbo	Manual
+son	兒子	2010	NEWS	_	_	CNA	中縣40歲林姓男子與外遇女友生下1子,引發家庭紛爭;林男的兒子4日晚間報警指出,父帶外遇女與2人所生幼子外出可能輕生,經警搜尋及時挽回3命,警方今天呼籲珍惜生命。	Neutral	0.931140065193176	Yes	NA	Male	Child	Negative	Neutral
+father	父亲	1992	NEWS	_	_	XIN	这一年,伪保长罗锡联为霸占她家一片树林和几亩山地,放火烧了罗昌秀家的房子,逼死了父亲罗锡朋,打死了哥哥罗昌保,罗昌秀走投无路,带着遍体鳞伤和血淋淋露出骨头的双手,逃进莽莽无边的断头山。	Negative	0.940024554729462	No	No	Male	Parent	Negative	Neutral
+boy	男孩	2001	NEWS	_	_	XIN	10岁的男孩张骏迪胜了谢军。	Positive	0.90215140581131	No	Yes	Male	Not_Adult	Neutral	Positive
+father-in-law	岳父	2008	NEWS	_	_	CNA	目前馬英九仍在進行疼惜台灣行腳,藉訪視弱勢、關懷春節仍要執勤的基層公務員,彰顯找回台灣優良核心價值訴求,在忙完岳父治喪事宜後,馬英九的春節行程將遵循台灣民眾春節拜廟習俗,行程以寺廟參拜為主。	Neutral	0.544215023517609	Yes	NA	Male	Parent_In_Law	Neutral	Neutral
+boy	男孩	2003	NEWS	_	_	XIN	邻居们发现房子失火后,赶来看到一个男孩正在用拳头敲打窗户。	Negative	0.962442576885223	No	No	Male	Not_Adult	Neutral	Neutral
+father-in-law	公公	1998	NEWS	_	_	CNA	蕭萬長向全場可愛小朋友說,全球的聖誕老公公現在都很忙,但交待他要和小朋友送暖、點燈、許新願,共同迎接千禧年,希望世界充滿光明和平安。	Negative	0.453140765428543	No	No	Male	Parent_In_Law	Neutral	Other
+wife	妻子	2007	NEWS	_	_	CNA	無黨團結聯盟籍立委蔡豪2005年涉嫌透過友人李長麟行賄調查局南機組長諸明章,探得查賄風聲,暗助競選屏東縣長的妻子宋麗華逃避查緝,一審獲判無罪,經檢方上訴,高雄高分院今天依貪污治罪條例等罪,改判蔡豪及李長麟有期徒刑各一年並褫奪公權一年。	Neutral	0.569155037403107	Yes	NA	Female	Spouse	Neutral	Negative
+wife	妻子	2006	NEWS	_	_	XIN	在威尔逊的文章发表后,美国媒体发表文章援引白宫高级官员的话披露说,威尔逊的妻子普莱姆是中情局的秘密特工,威尔逊前往尼日尔是她推荐而不是中情局主动邀请的。	Neutral	0.687389969825745	Yes	NA	Female	Spouse	Neutral	Neutral
+father	父親	1995	NEWS	_	_	CNA	土耳其一名擔心失業後家計無著的父親,在深夜中攀上梯子意圖懸樑自盡,但垂死痛苦掙扎的聲音驚醒八歲小女兒,小女兒見情況危急猶能臨危不亂,立即攀上樓梯以菜刀割斷繩索,挽回父親的性命。	Negative	0.966893434524536	No	No	Male	Parent	Positive	Neutral
+husband	丈夫	1998	NEWS	_	_	CNA	當地居民指出,老阿媽名叫翁玉蘭,丈夫在日據時代當軍伕時去世,膝下無子女,二十三歲那年她因罹患眼疾沒錢看診,導致雙目失明,現在住的瓦房是別人借給她住的,已經過了幾十年的獨居生活。	Negative	0.904235661029816	No	No	Male	Spouse	Neutral	Neutral
+wife	妻子	1998	NEWS	_	_	XIN	妻子见他花150元钱买回一堆只能当柴烧的竹棒,埋怨了他好一阵子。	Negative	0.973886787891388	No	No	Female	Spouse	Negative	Neutral
+son	兒子	1999	NEWS	_	_	CNA	做為前總統的兒子又繼承了總統的同樣名字,小布希今年一踏上國際舞台支持度急遽升高,募款速度創紀錄,許多人認為他是爭取二千年白宮寶座的不二人選。	Positive	0.933884918689728	No	Yes	Male	Child	Positive	Positive
+mother-in-law	婆婆	2007	NEWS	_	_	CNA	連勝文除了學包尿布,現場也有不少婆婆媽媽紛紛探詢連勝文即將升格為新科爸爸的感想,他反而向在場的媽媽們請教育兒經驗,讓選舉氣氛格外溫馨。	Positive	0.950308501720428	No	Yes	Female	Parent_In_Law	Neutral	Neutral
+brother	兄弟	2009	NEWS	_	_	CNA	陳水扁律師團更將以檢方在去年12月3日安排前中信金副董事長辜仲諒和扁家友人蔡銘哲、蔡銘杰兄弟3方對質的光碟內容,直接質疑檢方有「湮滅或變造證據」之嫌。	Neutral	0.817890822887421	Yes	NA	Male	Sibling	Neutral	Neutral
+father	爸爸	2008	NEWS	谭浩	_	XIN	另外一名来自四川灾区的残疾儿童、正在北京中国康复研究中心接受治疗的黄思雨在主办单位的帮助下与日夜思念的爸爸、妹妹相聚。	Positive	0.996041059494019	No	Yes	Male	Parent	Positive	Positive
+girl	女孩	2010	NEWS	_	_	XIN	在这位快乐女孩的眼中,广州之旅更多的是收获的喜悦。	Positive	0.99901008605957	No	Yes	Female	Not_Adult	Positive	Neutral
+wife	妻子	2006	NEWS	_	_	XIN	妻子庐春莲先后带着丈夫到过近十家医院看病。	Positive	0.918270945549011	No	Yes	Female	Spouse	Neutral	Positive
+daughter	女兒	2002	NEWS	_	_	CNA	中視閩南語連續劇「女人當家」今天試片,劇中超齡演出「歐巴桑」的女主角蔡佳宏,一身火紅薄紗低胸禮服亮相,讓熱戀中的她,透露出待嫁女兒心。	Positive	0.779988825321198	No	Yes	Female	Child	Neutral	Neutral
+girl	女孩子	1993	NEWS	_	_	CNA	女孩子也會得疝氣,高雄市阮綜合醫院最近發現三名女童罹患疝氣的病例,因延誤醫療時機,卵巢都已壞死,醫師不得不予以切除。	Positive	0.512068688869476	No	Yes	Female	Not_Adult	Neutral	Neutral
+wife	妻子	1999	NEWS	_	_	XIN	”袁俊超和妻子原来都是纺织厂工人,连初中文凭都没有。	Negative	0.568468809127808	No	No	Female	Spouse	Neutral	Negative
+husband	丈夫	2005	NEWS	_	_	CNA	莊淑娟的丈夫賴俊彧原本是種植水稻的農民,由於多年來家庭經濟一直沒有起色,因此莊淑娟鼓勵丈夫改種芭樂,八年前在農業試驗所鳳山分所的輔導下,種植新品種「水晶芭樂」,由於甜度高,口感脆,因此頗獲消費者喜愛。	Neutral	0.530053853988647	Yes	NA	Male	Spouse	Positive	Neutral
+mother-in-law	婆婆	2008	NEWS	_	_	CNA	迎端午,南投縣肉品市場今天人潮滾滾,除了婆婆媽媽包粽子比賽,還有龍舟走秀、百發百粽等多項趣味競賽及香包DIY等;肉品市場六隻迷你麝香豬也慶祝滿月,並展開「六小福」彌月命名活動,現場有吃有玩,粽香四溢。	Positive	0.961717426776886	No	Yes	Female	Parent_In_Law	Neutral	Neutral
+husband	丈夫	1999	NEWS	_	_	CNA	王慶生是國語日報同事們公認的孝子,三十多年前,他的母親于培英女士,為了貼補家用,撫育多名子女和協助丈夫,經常挑著扁擔,憑著雙腿四處奔波叫賣,由於日夜操勞,不幸在五十五年積勞成疾,引起腦血管的病變和突發休克,而殘疾癱瘓在床。	Neutral	0.734329760074615	Yes	NA	Male	Spouse	Positive	Neutral
+mother	母亲	2000	NEWS	_	_	XIN	“由于地中海贫血病等遗传病目前尚无十分有效的治疗方法,所以成立优生遗传疾病产前诊断中心十分必要,母亲怀的宝宝是否健康,到这儿一查便知!”记者在遗传疾病产前诊断中心看到,工作人员微笑地向每对夫妇耐心解释。	Positive	0.541181564331055	No	Yes	Female	Parent	Neutral	Neutral
+daughter	女兒	2009	NEWS	_	_	CNA	女學生母親說,在女兒返台後,將購買足夠的糧食,在家自主管理1周,確定沒事後,再恢復正常生活。	Neutral	0.80191957950592	Yes	NA	Female	Child	Neutral	Neutral
+sister	妹妹	2005	NEWS	_	_	CNA	未來治療期間,李明鍾希望可以控制感染情形,如果情況未發生,以小妹妹目前的生理情況,應是樂觀狀態,但感染一旦產生,整個情況可能會有忽然的變化出現,情況可能會惡化,醫療團隊仍會繼續努力為邱小妹妹診治。	Positive	0.649137198925018	No	Yes	Female	Sibling	Neutral	Neutral
+boy	男孩	2004	NEWS	_	_	XIN	头戴橄榄枝,不时吐吐舌头的刘翔像个邻家大男孩。	Positive	0.972625732421875	No	Yes	Male	Not_Adult	Positive	Neutral
+father-in-law	公公	2002	NEWS	_	_	CNA	耶誕節是個充滿溫馨歡樂的節日,但是對因病住院的病患而言,卻往往成為一項心理上的折磨,嘉義基督教醫院小兒科醫師、護士、院牧部人員,今天特別攜帶五彩汽球、小禮物,並由志工裝扮成聖誕老公公,前往小兒科病房與門診探訪,希望能撫慰他們思念親人的情緒。	Positive	0.811221182346344	No	Yes	Male	Parent_In_Law	Neutral	Other
+husband	丈夫	1998	NEWS	麦棠源	_	XIN	巴苏姬现任教练苏哈里亚迪就是她的丈夫。	Neutral	0.51983517408371	Yes	NA	Male	Spouse	Neutral	Neutral
+boy	男孩	2000	NEWS	_	_	CNA	談到新專輯與其他男孩團體的比較,如今已十九歲的Isaac說:「從基本的音越層面來看,我們是非常非常不一樣的。	Neutral	0.620855093002319	Yes	NA	Male	Not_Adult	Neutral	Neutral
+wife	妻子	2002	NEWS	_	_	CNA	馬祖教育界人士指出,馬祖目前有大陸籍國中小學生約一百五十人、高中生約二十來人,主要是大陸的馬祖人於民國八十七年以後逐漸返回故鄉定居,他們娶了大陸妹,生了子女,妻子一時不便回馬祖,孩子可能先在大陸唸小學,到小三才回馬祖;也有一種情形是大陸台商子弟就近送回馬祖就讀。	Negative	0.89129763841629	No	No	Female	Spouse	Neutral	Neutral
+daughter	女儿	1998	NEWS	尹建华	_	XIN	济南汽运公司下岗职工马玉凤的女儿因病不能正常上学,耽误许多功课,请个家教给孩子补课一直是她的梦想。	Negative	0.816736221313477	No	No	Female	Child	Positive	Neutral
+brother	弟弟	2008	NEWS	_	_	CNA	陳俊銘從弟弟手上取走錢後交給這名「老猴」,隨即兩人就失去蹤影。	Negative	0.701868414878845	No	No	Male	Sibling	Neutral	Neutral
+husband	丈夫	1998	NEWS	_	_	XIN	每天早上,她和丈夫跑4英里,白天她常在健身房中练腿部力量,晚上,她一气做1000个仰卧起坐。	Positive	0.534920752048492	No	Yes	Male	Spouse	Neutral	Positive
+man	男人	2000	NEWS	_	_	CNA	也就是說,男人患病,還有配偶照顧;女性患病,被送進療養院的機率更大。	Neutral	0.740788459777832	Yes	NA	Male	Adult	Neutral	Negative
+mother-in-law	婆婆	2005	NEWS	_	_	CNA	永康社區公園今天提前飄起端午粽香,大永康商圈文化協進會與勵馨基金會合作在永康公園舉辦包肉粽大賽與義賣會,一串由社區婆婆媽媽包的「冠軍粽」成功募得新台幣十二萬元,幫助受暴婦女。	Positive	0.981932938098908	No	Yes	Female	Parent_In_Law	Positive	Positive
+mother-in-law	婆婆	2002	NEWS	_	_	CNA	學界統計,台灣大約百分之三到百分之五的更年期婦女會有熱潮紅、夜間盜汗等不適症狀,今天瑞士籍內分泌科醫師丹尼爾.第博(Daniel Thiebaud)在一場記者會中指出,現在只有荷爾蒙替代療法能讓婆婆媽媽緩解更年期不適,但許多研究指出,補充荷爾蒙可能會增加乳癌、子宮內膜癌的風險,且不能減少心臟病及中風所以在渡過年期不適症狀之後,可以考慮改用非荷爾蒙的藥品。	Positive	0.979564249515533	No	Yes	Female	Parent_In_Law	Neutral	Neutral
+daughter	女儿	2003	NEWS	赵晓钟	_	XIN	据传,前外长马丁斯・达克鲁斯的女儿考试分数不够却被医学院破例录取,他在此事上有违规行为。	Negative	0.846542239189148	No	No	Female	Child	Negative	Negative
+mother	母亲	1995	NEWS	_	_	XIN	由中国人口福利基金会等单位开展的这项行动,目的是帮助贫困家庭的贫困母亲治穷、治愚、治病。	Negative	0.793013215065002	No	No	Female	Parent	Positive	Neutral
+sister	姐姐	2000	NEWS	_	_	XIN	刘金国知道后,当着姐夫的面给区政府打电话:“我姐夫找你们收白菜的事绝对不能办,谁办我找谁是问!”结果,姐姐家的白菜没卖出去,全烂在了地里。	Negative	0.979383051395416	No	No	Female	Sibling	Neutral	Neutral
+girl	女孩子	1998	NEWS	_	_	XIN	当日下午5时许,被跟踪抓捕的刑警队员发现后,案犯又持菜刀、匕首将两个女孩子劫持到屋内作为人质拒捕。	Neutral	0.558713912963867	Yes	NA	Female	Not_Adult	Negative	Neutral
+girl	女孩	2008	NEWS	_	_	CNA	當局已經確認其中五十三名女孩的身份,他們相信這些女孩的年紀介於十四至十七歲。	Neutral	0.526705324649811	Yes	NA	Female	Not_Adult	Neutral	Neutral
+son	儿子	1998	NEWS	_	_	XIN	他想如果儿子还在,肯定会在这抗洪大军中。	Positive	0.934016406536102	No	Yes	Male	Child	Positive	Positive
+sister	妹妹	2001	NEWS	_	_	CNA	不過,麥可傑克森的妹妹珍娜傑克森由於正值個人新專輯「珍愛」巡迴演唱會行程而將缺席。	Negative	0.948313236236572	No	No	Female	Sibling	Neutral	Neutral
+mother	母親	2004	NEWS	_	_	CNA	監察院說,黃國章案引爆前後時期軍中不當管教、軍中人權不彰的一連串案件,而「南陽艦魅影」新書以黃國章的母親黃媽媽出發,透過文字重現監察院調查過程,彙整十年來軍中人權保障進程,是台灣第一本類似的真實記錄書籍。	Positive	0.940396010875702	No	Yes	Female	Parent	Neutral	Neutral
+father-in-law	岳父	1994	NEWS	_	_	CNA	細川被要求出席聽證會,就涉嫌收取東京佐川急便公司政治獻金,及以他岳父名義進行可疑股票交易一事出席說明。	Negative	0.864660441875458	No	No	Male	Parent_In_Law	Neutral	Neutral
+man	男人	2002	NEWS	_	_	CNA	佛羅里達州立大學心理學教授寬達諾說,至少對男人來講,缺乏腎上皮質素是他們愛追逐刺激的原因。	Negative	0.368823677301407	No	No	Male	Adult	Neutral	Neutral
+man	男人	2010	NEWS	_	_	CNA	李安原本也納入推薦人名單,不過他推薦的去年威尼斯影展最佳影片「黎巴嫩」和最佳導演作品「沒有男人,女人更美」(Women Without Men),已預定在今年台北電影節放映。	Neutral	0.469857066869736	Yes	NA	Male	Adult	Neutral	Propn
+mother-in-law	婆婆	2008	NEWS	_	_	CNA	一些網民留下評論說,這位婆婆「自力更生的精神值得尊重」。	Positive	0.996180534362793	No	Yes	Female	Parent_In_Law	Positive	Positive
+father	爸爸	2010	NEWS	_	_	CNA	姚明今年年初正式公開葉莉懷孕的消息,自此姚明要做爸爸的消息就成為許多人關注的焦點。	Neutral	0.873750448226929	Yes	NA	Male	Parent	Positive	Neutral
+mother-in-law	婆婆	2002	NEWS	_	_	CNA	婆媳不和似是古今中外家庭常態,土耳其考古學者烏茲莒奇今天表示,根據最近出土的楔形文字黏土板記載,約於西元前兩千年即有一位女性寫信向遠在外地的丈夫抱怨受到婆婆虐待,要求丈夫儘速返家。	Negative	0.996529281139374	No	No	Female	Parent_In_Law	Negative	Negative
+boy	男孩	2005	NEWS	_	_	XIN	报道说,舞厅工作人员现已证明看见一名男孩当时坐在他父亲的肩膀上,向塑料泡沫制成的天花板燃放烟花,大火随即燃起。	Negative	0.59921795129776	No	No	Male	Not_Adult	Neutral	Negative
+father-in-law	岳父	1996	NEWS	_	_	XIN	东元村民兵营长傅长久手持两张百元大钞说:“请订三份《湖南农村报》,一份投给我岳父蒋尚科,一份投给我弟弟傅长玉。	Positive	0.762739837169647	No	Yes	Male	Parent_In_Law	Neutral	Neutral
+boy	男孩	2007	NEWS	_	_	XIN	”这个大二男孩说。	Positive	0.606139659881592	No	Yes	Male	Not_Adult	Neutral	Neutral
+father-in-law	公公	2008	NEWS	_	_	CNA	受到離婚刺激,洛杉磯郊外科維納(Covina)一名男子扮成耶誕老公公向前妻復仇。	Positive	0.485352247953415	No	Yes	Male	Parent_In_Law	Negative	Other
+husband	丈夫	2010	NEWS	_	_	CNA	一名91歲華裔婦女被控在雪梨住家謀殺98歲丈夫,法官今天下令她進行精神病鑑定。	Negative	0.904169499874115	No	No	Male	Spouse	Neutral	Neutral
+girl	女孩	2002	NEWS	_	_	CNA	談到開設泰拳課程起源,這位校長表示,塔通寺住持達馬日廷摩高僧,今年初從媒體上得知不少女孩遭到強暴,心中感到非常難過,在向社區長老和區議員表達這項憂慮時,建議教授女孩泰拳,以便學習自我防身的技術。	Neutral	0.565229654312134	Yes	NA	Female	Not_Adult	Neutral	Neutral
+son	兒子	1998	NEWS	_	_	CNA	中國國民黨台北市長候選人馬英九競選總部發言人林火旺今天下午表示,去年自己兒子就讀的公館國小的班級人數就是三十五人,難道今年就會有五個人轉學嗎?自己同事兒子就讀的光復國小,班級上的人數也是超過三十人,另外弘道國中也有部份班級人數甚至達到四十二人,顯然郭生玉說已控制在目標人數內的說法並不確實。	Neutral	0.502664089202881	Yes	NA	Male	Child	Neutral	Neutral
+woman	女人	2005	NEWS	_	_	CNA	全球掀起「熟女風潮」,亞洲也從日本延燒到台灣,法國迪奧化妝品首度針對台灣二十、三十、四十歲不同年齡層男性進行「男人眼中的美麗成熟女人」調查,結果今天曝光。	Positive	0.988331615924835	No	Yes	Female	Adult	Neutral	Neutral
+mother	母亲	2009	NEWS	_	_	XIN	《太阳报》援引一些医师的话报道,这个寄生组织长约4厘米,原先为一个双胞胎胚胎,它与海厄特同处胚胎阶段时一起“住在”母亲子宫内,但发育3至4周后死亡,随后寄生在海厄特的胚胎中。	Negative	0.904486060142517	No	No	Female	Parent	Neutral	Neutral
+mother-in-law	婆婆	2010	NEWS	_	_	XIN	婆婆一边坐在柴堆边烤火,一边看各家的媳妇围着露天的灶台忙活个不停。	Neutral	0.737492084503174	Yes	NA	Female	Parent_In_Law	Neutral	Neutral
+woman	女人	1996	NEWS	_	_	CNA	艾南並表示,英國、荷蘭和比利時在處理這類問題上都已開始採取這種態度,但在奧地利則還須修改外人法令,以便這類被逼為娼的女人可以用受害人身分取得在奧地利的短期居留,能夠出庭作證指控其剝削者。	Negative	0.987421870231628	No	No	Female	Adult	Neutral	Neutral
+father	父親	1999	NEWS	_	_	CNA	最近父親出獄,親戚要把他送回父親管教才又偷車逃跑。	Negative	0.995044946670532	No	No	Male	Parent	Negative	Negative
+boy	男孩子	2010	NEWS	_	_	CNA	她說,有個國二的男孩子從台北轉學到壽豐,但這個孩子在台北喜歡當老大,手底下有小弟們,幾乎形成小小黑社會,當他轉學到此地,一時性難改,鄉下老師當然排斥這種學生,幾乎又要被放棄。	Positive	0.533774077892303	No	Yes	Male	Not_Adult	Neutral	Negative
+father-in-law	岳父	1998	NEWS	_	_	CNA	黨主席許信良、台北市長陳水扁、台北縣長蘇貞昌、台中縣長廖永來,以及盧修一兩位九十多歲的岳父母等人都參加,盧修一夫人陳郁秀也帶小兒子參加了這場祈禱會,和與會者共同為盧修一祈禱。	Positive	0.989578783512116	No	Yes	Male	Parent_In_Law	Neutral	Neutral
+woman	女人	2004	NEWS	_	_	CNA	她和大多數女人一樣,都渴望愛情。	Positive	0.975318491458893	No	Yes	Female	Adult	Neutral	Neutral
+father-in-law	岳父	2006	NEWS	_	_	CNA	六合區文物保管所所長蔡明義向南京「金陵晨報」說,要考證黃帝的岳父,先要弄清楚一個問題,就是炎帝和黃帝並非同時代的人,黃帝在炎帝之後整整相差十一代。	Neutral	0.927284300327301	Yes	NA	Male	Parent_In_Law	Neutral	Neutral
+man	男人	2008	NEWS	_	_	XIN	7个男人在一间屋里,有足够的时间侃大山。	Positive	0.988837003707886	No	Yes	Male	Adult	Neutral	Neutral
+father-in-law	公公	2000	NEWS	_	_	CNA	因此,公公娶兒媳、岳母下嫁女婿雖然不合理,但也不違法,許多人更對此表示理解與同情。	Neutral	0.568925321102142	Yes	NA	Male	Parent_In_Law	Neutral	Negative
+daughter	女儿	2001	NEWS	翟伟	_	XIN	国务院妇女儿童工作委员会副主任、国务院副秘书长徐绍史今天在国务院新闻办公室举行的新闻发布会上说,凡使用、介绍或允许童工者都将受到法律的惩处。	Neutral	0.887522339820862	Yes	NA	Female	Child	Neutral	Segment
+man	男人	2009	NEWS	_	_	XIN	位于“男人街”街头的店铺中不仅陈列着常规的衬衣、西装,也展示着各种款式的伊顿公学校服。	Neutral	0.915450930595398	Yes	NA	Male	Adult	Neutral	Neutral
+father-in-law	岳父	2005	NEWS	_	_	XIN	中国航运股份有限公司是董建华的父亲、彭荫刚的岳父董浩云先生于1946年在上海创立的,在航权破碎、门户洞开的时代开创了中国民族航运业自强振兴的先河,至今在台湾乃至国际航运界有着举足轻重的影响力。	Positive	0.994630575180054	No	Yes	Male	Parent_In_Law	Positive	Neutral
+wife	妻子	1999	NEWS	_	_	XIN	死者的妻子徐庆荣因案子迟迟得不到解决,多次越级上访。	Negative	0.952184438705444	No	No	Female	Spouse	Neutral	Neutral
+wife	妻子	1999	NEWS	_	_	CNA	安南此舉,打破了聯合國職員過去半個世紀一直享有的,可以不必執行地方法院命令他們對已離婚妻子及子女支付撫養費判決的外交豁免權。	Neutral	0.734462738037109	Yes	NA	Female	Spouse	Neutral	Neutral
+husband	丈夫	1999	NEWS	_	_	XIN	张桂荣的丈夫告诉总理,洪水冲毁了他原来承包的土地和鱼塘,但是一家人还在,一切还能从头干起来。	Neutral	0.915453672409058	Yes	NA	Male	Spouse	Positive	Neutral
+brother	兄弟	1999	NEWS	_	_	CNA	有「棒球先生」美稱的中華職棒聯盟兄弟象球員李居明,近日傳出有意轉檯那魯灣,兄弟隊領隊洪瑞河今天中午表示,他找李居明談過兩次,希望他不要聽信謠言好好留在兄弟隊,他願意升他為教練或是總教練。	Neutral	0.708529949188232	Yes	NA	Male	Sibling	Positive	Propn
+sister	妹妹	1995	NEWS	_	_	CNA	許水德當年擔任高雄市長時,他的夫人曾擔任中華婦女反共聯合會代表團副團長前往美國紐約探視蔣夫人,蔣夫人親切地以「小妹妹」稱呼代表團的成員;直到他任台北市長時,有一次臨時奉命與各部會首長前往夫人官邸晉見,但因須先行離開趕回市議會,臨去前,蔣夫人還特地提及許水德夫人,並請轉達問候之意。	Positive	0.966910362243652	No	Yes	Female	Sibling	Neutral	Neutral
+father-in-law	岳父	1992	NEWS	_	_	XIN	商店糕点组的服务员告诉记者:过去初二女婿们看望岳父、岳母,买盒糕点、两瓶二锅头就行了。	Neutral	0.863178551197052	Yes	NA	Male	Parent_In_Law	Neutral	Neutral
+father-in-law	岳父	1999	NEWS	_	_	XIN	刘昌赫因赛事繁忙,在同金小姐谈恋爱的初期甚至没有及时去拜访未来的岳父母。	Positive	0.767039120197296	No	Yes	Male	Parent_In_Law	Neutral	Neutral
+father-in-law	公公	2002	NEWS	_	_	CNA	「糖糖教室」是「金公公銀婆婆健康總動員」活動的重頭戲,中國醫藥學院附設醫院選擇以這種走入社區的方式來歡度二十二週年院慶,受到樂英里、金華里、錦祥里、金龍里、新北里、錦和里、武順里住戶歡迎。	Positive	0.995769798755646	No	Yes	Male	Parent_In_Law	Neutral	Propn
+mother-in-law	岳母	2008	NEWS	_	_	CNA	工商協進會理事長黃茂雄也指出,他岳母對於搭乘高鐵感到滿意。	Positive	0.993818461894989	No	Yes	Female	Parent_In_Law	Positive	Neutral
+girl	女孩	2008	NEWS	_	_	CNA	洪惠昭說,這次演出的舞碼有熱力四射、觀浪、彈跳之美、揮舞、翻滾吧!女孩、水精靈、武動‧舞動、奪標、翔、武舞生風、情挑拉丁和舞躍大地等,保證值回票價。	Neutral	0.82033371925354	Yes	NA	Female	Not_Adult	Neutral	Propn
+brother	哥哥	2005	NEWS	_	_	XIN	20多天过去了,哥哥一直不相信弟弟已经死去。	Negative	0.880695581436157	No	No	Male	Sibling	Neutral	Neutral
+husband	丈夫	1992	NEWS	_	_	XIN	蔡淑芳是三个女儿的母亲,丈夫是三代单传。	Negative	0.899407386779785	No	No	Male	Spouse	Neutral	Neutral
+mother	母親	2009	NEWS	_	_	CNA	警方調查,張姓男子的女兒昨天在浴室戲水吵鬧,以掃把「管教」女兒,並將女兒綁在房間床頭後去上班,女童母親隨後發現為女兒鬆綁,但在洗、曬衣服後發現女兒昏迷,立即送往國軍高雄總醫院急救,仍回天乏術。	Negative	0.679302930831909	No	No	Female	Parent	Neutral	Neutral
+brother	哥哥	2010	NEWS	_	_	CNA	秦姓雙胞胎哥哥今天回到事發現場,他指出,路面長約1公尺、深約5公分的溝縫,就是造成弟弟嚴重摔傷的元凶。	Neutral	0.939817607402802	Yes	NA	Male	Sibling	Neutral	Neutral
+wife	妻子	2007	NEWS	_	_	CNA	至於法官判決馬英九領養流浪犬「馬小九」部分,退回檢方「馬英九妻子周美青涉侵占特別費案」併案偵辦,有媒體問及是否意謂檢方做「困獸之鬥」,對此,薛松雨說,這是檢方職權,他予以尊重,他不便揣測或做出評論。	Neutral	0.492945581674576	Yes	NA	Female	Spouse	Neutral	Negative
+brother	哥哥	2004	NEWS	_	_	CNA	從今年八月二十六日雲林地檢署發布通緝張榮味後行蹤不明至今,已經有三個多月沒見面了,王月霞、張嘉郡、張麗娟、張麗善四人看到張榮味下車,情緒激動,痛哭失聲,一邊喊著爸爸加油、哥哥加油,張榮味與王月霞雙眼交會、雙手短暫相握,隨即被帶進地檢署。	Positive	0.996985256671906	No	Yes	Male	Sibling	Neutral	Neutral
+mother	媽媽	2006	NEWS	_	_	CNA	台北市中正區健康服務中心今天建議哺乳媽媽以富含纖維「育乳黃金湯」取代高熱量補品,以防身材橫向發展。	Positive	0.511090397834778	No	Yes	Female	Parent	Neutral	Neutral
+wife	妻子	2007	NEWS	_	_	CNA	根據此份調查,隨著女性意識抬頭,有將近一半的網友認為,誰買的房子就登記誰的名下,僅有8.8%老公願意無條件把房子登記在妻子名下。	Neutral	0.812760531902313	Yes	NA	Female	Spouse	Neutral	Neutral
+daughter	女儿	2004	NEWS	_	_	XIN	受害者的女儿珍妮・克拉克介绍说,邦尼・瓦尔患有肺气肿,并需要不断吸氧。	Neutral	0.917174100875854	Yes	NA	Female	Child	Neutral	Neutral
+brother	哥哥	2009	NEWS	于文静	_	XIN	肇事者已被抓获,肇事者的哥哥李祖义参与扑火时死亡。	Negative	0.554301679134369	No	No	Male	Sibling	Neutral	Positive
+brother	哥哥	1999	NEWS	_	_	CNA	華夏工專董事長趙愷政與哥哥趙沛明的鬩牆之爭已演變成台灣頭條社會新聞,他們的兄弟、活躍於舊金山僑界的的趙川三今天表示,他不認為大哥與小弟間的「不愉快」已到如此嚴重地步,雙方應以辦好校務為第一優先。	Neutral	0.51172411441803	Yes	NA	Male	Sibling	Neutral	Negative
+boy	男孩	2002	NEWS	_	_	CNA	「超級男孩」賈斯汀將與她在「Yours」單曲中演出男女對唱,而饒舌樂壇重量級製作人「德瑞大夫」也參與了「Clown」單曲的製作。	Positive	0.978868126869202	No	Yes	Male	Not_Adult	Neutral	Propn
+wife	妻子	1996	NEWS	郗永年	_	XIN	这些人见多识广,致富有方,尊敬老人,支持妻子顶门立户,对转变男尊女卑旧观念、落实计划生育国策起了很大作用。	Positive	0.997722208499908	No	Yes	Female	Spouse	Positive	Positive
+girl	女孩	2004	NEWS	_	_	CNA	至於為什麼只注重外面,裡面卻只要穿「菊花牌」內衣就可以了?小蘇表示,她很深刻了解自己目前在追求什麼,因為她雖然時尚、思想「前沿」(意味超前),也不是那種會去追求物質、犧牲尊嚴換取報酬,或超出自己能力範圍去花錢的女孩,目前她的能力,就是把不吃飯當減肥,先全力顧好「外面」看的到的「工程」,有餘力時,再去注意「裡面」的事。	Positive	0.900201141834259	No	Yes	Female	Not_Adult	Neutral	Negative
+mother-in-law	婆婆	2003	NEWS	_	_	CNA	彰化火車站站長蘇鎮霖說,由於今天晚上就是耶誕夜,因此台鐵特別將CK124佈置成哈利波特故事中的魔法火車,除了在火車頭戴上耶誕花圈,車上也坐了打扮成耶誕小公公小婆婆模樣的小朋友,一起分享耶誕節的喜悅。	Positive	0.779224514961243	No	Yes	Female	Parent_In_Law	Neutral	Other
+mother-in-law	岳母	1991	NEWS	_	_	XIN	他结婚5年,家里至今没有垒灶,妻子女儿一直在岳母家吃饭;女儿5岁了,还不知道哪里是自己的家。	Positive	0.95716404914856	No	Yes	Female	Parent_In_Law	Negative	Neutral
+daughter	女兒	2007	NEWS	_	_	CNA	陳女是高雄市鹽埕區人,警方赴家中訊問,陳母絲毫不知陳女盜領公款一事,陳母透露女兒幫大學同學背了五百多萬元的負債,有的錢是卡債,壓得陳女喘不過氣。	Negative	0.940407514572144	No	No	Female	Child	Negative	Negative
+son	兒子	2000	NEWS	_	_	CNA	中國國民黨主席連戰定十一月一日抵達美國,訪問芝加哥及紐約等地,他的夫人連方瑀今天先行抵達舊金山訪問,並探視正在史丹福大學深造的兒子連勝武。	Positive	0.871366500854492	No	Yes	Male	Child	Positive	Neutral
+boy	男孩	2008	NEWS	杨一苗	_	XIN	3岁的四川省北川县男孩郎铮在被从废墟中营救出时,在担架上艰难地举起右手,向营救他的解放军敬礼,这一瞬间感动了无数中国人。	Positive	0.682565212249756	No	Yes	Male	Not_Adult	Positive	Neutral
+father	父親	2004	NEWS	_	_	CNA	縣立文化中心表示,陳甲上的父親和陳總統的父親是堂兄弟,所以陳甲上和陳總統也是堂兄弟。	Positive	0.995238304138184	No	Yes	Male	Parent	Neutral	Neutral
+husband	丈夫	2002	NEWS	_	_	CNA	高雄市里長選舉首宗涉嫌賄選案件,高雄地檢署今天偵結,將涉案的前鎮區瑞崗里長候選人賴欽美與她的丈夫蔡明取依涉嫌違反選舉罷免法提起公訴,並對兩人各求處有期徒刑一年、褫奪公權兩年。	Negative	0.534420371055603	No	No	Male	Spouse	Neutral	Negative
+mother	媽媽	2002	NEWS	_	_	CNA	一下子被這麼多人喊媽媽,葉童抱著戲裡的子女得意地說,省去養育的辛勞,就有現成長的這樣好的小孩,有何不好。	Positive	0.511570632457733	No	Yes	Female	Parent	Neutral	Neutral
+boy	男孩	2010	NEWS	_	_	XIN	在网球场,四年前,还拿着捡来的玻璃瓶对着墙壁击球的菲律宾男孩杰森,已经在青奥会上打到了四分之一决赛。	Positive	0.500012934207916	No	Yes	Male	Not_Adult	Positive	Positive
+girl	女孩	2002	NEWS	_	_	CNA	台中榮總今天為潘先生舉辦慶生會,潘先生說,自從知道這個心臟是來自一位十九歲的女孩,他即常對著心臟說,「丫頭,我會努力照顧自己讓妳多活幾十年」;而有了這個新的心臟,潘先生原本呼吸困難的情形不見了,現在可以一口氣爬五百公尺的山坡路,而且他還下定決心,今後不再做傷害自己健康的行為。	Positive	0.782249271869659	No	Yes	Female	Not_Adult	Positive	Positive
+father	父親	2007	NEWS	_	_	CNA	警政署長侯友宜則表揚模範父親許金輝、英勇值勤警員廖明清、殉職偵查員林安順遺孀警眷王貞文,以及十三位公益大使。	Positive	0.998839914798737	No	Yes	Male	Parent	Neutral	Positive
+father	父親	2002	NEWS	_	_	CNA	對於謝霆鋒表示要暫時休息一陣子,謝賢說,他也贊成,不過謝霆鋒應該和經紀公司討論;至於是否和王菲結婚,謝賢表示,做父親的不過問感情的事,他不贊成不反對,謝霆鋒出社會有幾年了,他有戀愛的自由。	Neutral	0.572272419929504	Yes	NA	Male	Parent	Neutral	Neutral
+daughter	女兒	2004	NEWS	_	_	CNA	市府教育局今天舉辦發表會,台北市長馬英九在會中以過來人的經驗說,他是初中一年級才開始學英語,兩個女兒都是六歲後才開始接觸,至今都有不錯的語言能力,足證學習英語重情境與動機,與學齡並無絕對關係。	Positive	0.931429207324982	No	Yes	Female	Child	Positive	Positive
+father	父親	2005	NEWS	_	_	CNA	苗栗縣南庄鄉蓬萊村原住民部落今天發生父親打死兒子的人倫悲劇。	Negative	0.993375360965729	No	No	Male	Parent	Negative	Negative
+sister	妹妹	2009	NEWS	_	_	CNA	一名陳姓女藥師受訪說,她的妹妹都已有男友,而她到現在都還沒有男友,主要是工作環境很難遇到適合的對象,每當回家總會被媽媽問到有沒有心儀的男生,令她不知如何是好。	Positive	0.906592905521393	No	Yes	Female	Sibling	Neutral	Neutral
+daughter	女儿	2009	NEWS	_	_	XIN	扎什伦布寺民管会成员、古建公司负责人旺久告诉记者,甘珠尔殿主要维修项目的80%已经完成,目前正在实施这一殿堂剩余屋面阿嘎土的夯打,重砌女儿墙笾玛草等工程。	Neutral	0.589739143848419	Yes	NA	Female	Child	Neutral	Other
+husband	丈夫	2007	NEWS	_	_	CNA	她悲嘆自己「又聾又瞎又啞」,生不如死,很想在丈夫的忌日離開人世。	Negative	0.859596133232117	No	No	Male	Spouse	Negative	Neutral
+son	兒子	2010	NEWS	_	_	CNA	警方表示,這起案件發生在下午1時左右,鍾姓男子疑似酒後與兒子發生口角,竟拿砍柴用的刀追殺兒子,砍傷兒子的左臂動脈,傷者當場血流如注,顧不得傷勢,急忙逃出家門。	Negative	0.974988162517548	No	No	Male	Child	Neutral	Neutral
+man	男人	1993	NEWS	_	_	CNA	冰島男人的壽命位居世界第二位,平均七五點七一歲,其次是香港七四點九歲,瑞典七四點八一歲。	Positive	0.970020353794098	No	Yes	Male	Adult	Neutral	Neutral
+son	兒子	1997	NEWS	_	_	CNA	私立東南工專畢業生馬丞葳繼昨天召開記者會,指控東南工專董事長的兒子蔣維泰利用學生推廣教育中心代辦直升美國碩士班涉嫌詐欺後,馬丞葳今天在母親陪同下前往台北地檢署按鈴控告蔣維泰涉嫌詐欺。	Negative	0.976444780826569	No	No	Male	Child	Neutral	Negative
+girl	女孩子	2005	NEWS	_	_	XIN	按照传统,七夕节这一天女孩子要在瓜果架下朝天祭拜,祈求上天赐给她们织女一样灵巧的双手和美满爱情。	Positive	0.754427254199982	No	Yes	Female	Not_Adult	Neutral	Neutral
+boy	男孩	2001	NEWS	_	_	CNA	當哀悼者為十五日以色列建國日被殺害的人舉行葬禮時,加薩走廊又有一名巴勒斯坦男孩被殺。	Negative	0.986537337303162	No	No	Male	Not_Adult	Neutral	Neutral
+brother	弟弟	2003	NEWS	_	_	XIN	经过提审、取证,在大量的事实证据面前,谢某交代了该批象牙制品和鳄鱼皮是其弟弟在喀麦隆以极低的价格购得,夹藏于集装箱中偷运进境,并让其负责国内接货的犯罪事实。	Neutral	0.505871653556824	Yes	NA	Male	Sibling	Neutral	Negative
+husband	丈夫	2009	NEWS	_	_	CNA	酒井坦承,7 月30日左右,她用吸管吸食丈夫吸食後殘留的安毒。	Negative	0.960943937301636	No	No	Male	Spouse	Negative	Neutral
+son	儿子	1994	NEWS	_	_	XIN	1月28日,他和妻子带着被救的儿子孙壮苗来到医院,送给李倩2000元钱“买点补品”,被李倩谢绝。	Positive	0.640279054641724	No	Yes	Male	Child	Positive	Neutral
+daughter	女兒	1999	NEWS	_	_	CNA	一個多月來,陳水扁從自行炊煮食物的災民,女兒罹難依舊堅強生活的母親等災民身上,看到了台灣的生命力,以及義工的熱情展現台灣人有情有義的本質。	Neutral	0.591285943984985	Yes	NA	Female	Child	Positive	Neutral
+boy	男孩	2006	NEWS	_	_	XIN	研究同时发现,过胖男童在身体上及语言上受欺凌的可能性要比体重正常的男孩高66%,专家认为,导致这一现象的原因是过胖男孩的身材。	Negative	0.783118009567261	No	No	Male	Not_Adult	Neutral	Neutral
+father-in-law	公公	2004	NEWS	_	_	CNA	由於南陽國小是今年「第十二屆全國兒童聯想創作畫」比賽最大贏家,美術老師卓志明教學認真,教學亦有創意,文化中心借重長才,用人形創作耶誕老公公之戶外大型裝置藝術,即是他的構想。	Positive	0.755330145359039	No	Yes	Male	Parent_In_Law	Neutral	Other
+sister	妹妹	2009	NEWS	_	_	XIN	“我醒来后发现爸爸妈妈、外公外婆、弟弟妹妹都不见了。	Negative	0.94319486618042	No	No	Female	Sibling	Neutral	Neutral
+boy	男孩	2008	NEWS	_	_	XIN	刚上一年级的小男孩陈俊杰每天都会和5岁的弟弟来广场练习轮滑。	Positive	0.850261449813843	No	Yes	Male	Not_Adult	Positive	Neutral
+son	儿子	2006	NEWS	_	_	XIN	老人年纪渐大后,儿子滕志林怕自己一个人照顾不好母亲,建议三个妹妹都嫁在张溪本地,以便一起照顾母亲。	Neutral	0.83347225189209	Yes	NA	Male	Child	Positive	Neutral
+husband	丈夫	2006	NEWS	_	_	XIN	早在王�鞒稣鞫�奥会之前,张晓霞和丈夫王春江就坚信这枚金牌注定要被女儿收入囊中。	Positive	0.866591215133667	No	Yes	Male	Spouse	Positive	Neutral
+girl	女孩	2010	NEWS	_	_	CNA	但小女孩今天坐在母親身邊接受媒體訪問時,言談當中仍難掩驚恐心情。	Negative	0.92528247833252	No	No	Female	Not_Adult	Neutral	Neutral
+sister	姐姐	2008	NEWS	_	_	XIN	赛前夺标呼声最高的当属埃塞俄比亚的“小”迪巴巴,四年前,她和姐姐被邢慧娜“暗算”,丢掉了必赢的金牌,今晚,她紧紧咬住前方的“兔子”、土耳其的阿贝莱盖塞。	Negative	0.984651684761047	No	No	Female	Sibling	Neutral	Neutral
+daughter	女儿	2001	NEWS	_	_	XIN	新的妇女儿童纲要绘就了新世纪中国妇女儿童发展的第一份宏伟蓝图。	Positive	0.996797144412994	No	Yes	Female	Child	Positive	Segment
+brother	兄弟	1994	NEWS	_	_	CNA	立法委員陳宏昌今天上午向行政院提出書面質詢指出,據報導海岸巡防司令部南巡部人員與保七總隊隊員,在海上緝私時因爭功而發生其中一方對空鳴槍的行為,這種兄弟鬩牆行徑是不對的,應檢討改進。	Negative	0.995529592037201	No	No	Male	Sibling	Neutral	Negative
+boy	男孩	2009	NEWS	华义	_	XIN	通常有男孩的家庭会用竹竿挑起“鲤鱼旗”立在自家庭院里。	Neutral	0.570184051990509	Yes	NA	Male	Not_Adult	Neutral	Neutral
+wife	妻子	2010	NEWS	_	_	CNA	天津「現代快報」稱,這招果然靈驗,兒子很快便酣睡,而且一睡就睡到第2天中午還沒醒,把張姓市民嚇壞了,只好將原委告訴妻子。	Neutral	0.55513459444046	Yes	NA	Female	Spouse	Neutral	Neutral
+wife	妻子	1997	NEWS	_	_	XIN	刚刚从日本来香港工作4个月的山崎泰弘带着妻子山崎淑华,在海边已拍完了5个胶卷。	Positive	0.911084294319153	No	Yes	Female	Spouse	Neutral	Neutral
+daughter	女儿	2006	NEWS	_	_	XIN	中国教育部长周济,美国前总统尼克松的女儿、华美协进社理事艾森豪尔,以及来自华美协进社的合作伙伴单位华东师范大学的专家学者等人出席了签字仪式。	Neutral	0.943809270858765	Yes	NA	Female	Child	Neutral	Neutral
+mother	母親	2007	NEWS	_	_	CNA	高雄港務警察局表示,旗津海域海流湍急,尤其在高雄港旗后燈塔下海域更暗藏漩渦,五月十三日母親節當天還發生三名學生戲水被海流捲走,只有一名女學生被救起,另外兩名堂兄弟遭溺斃的不幸事件,令家屬傷痛欲絕。	Negative	0.56146627664566	No	No	Female	Parent	Neutral	
+brother	兄弟	2001	NEWS	_	_	XIN	谨祝兄弟的中国人民在以江泽民同志为核心的中国共产党领导下在新世纪取得新的、更加辉煌的成就。	Positive	0.9922034740448	No	Yes	Male	Sibling	Positive	
+brother	弟弟	1994	NEWS	_	_	XIN	几天来,其弟弟的骨髓细胞已在病人体内发挥作用。	Positive	0.482786238193512	No	Yes	Male	Sibling	Neutral	
+husband	丈夫	2004	NEWS	_	_	XIN	香港特区政府发言人证实,在泰国普吉的香港入境处人员28日晚接到一名外籍女士通知,表示其持有香港身份证的丈夫在此次海啸中丧生。	Negative	0.987354576587677	No	No	Male	Spouse	Neutral	
+mother-in-law	婆婆	1994	NEWS	_	_	XIN	今年90岁的孤寡老婆婆王洪珍入敬老院时间长,得到官兵的照顾多。	Positive	0.705473721027374	No	Yes	Female	Parent_In_Law	Positive	
+girl	女孩	2004	NEWS	_	_	CNA	雖然固定使用的男孩比例較女孩高,但是在青少年男女間的差異有減少的趨勢;不過,鎮靜劑、安眠藥及香菸等項目則為例外,女孩使用比例還比男孩高。	Positive	0.870364904403687	No	Yes	Female	Not_Adult	Neutral	
+father	父親	2007	NEWS	_	_	CNA	金日成是北韓現任領袖金正日的父親。	Positive	0.835915148258209	No	Yes	Male	Parent	Neutral	
+sister	姐姐	2010	NEWS	_	_	CNA	12年前,貝克漢在艾塞克斯(Essex)買了一棟價值25萬英鎊的4間臥房住屋給他姐姐。	Positive	0.502058506011963	No	Yes	Female	Sibling	Positive	
+sister	姐姐	2000	NEWS	_	_	XIN	”苏乙拉接下来拿着手提摄像机,把小舅子的比赛一一录了下来,说要回去放给乌云巴图的姐姐看。	Positive	0.592141687870026	No	Yes	Female	Sibling	Neutral	
+boy	男孩	1993	NEWS	_	_	CNA	郭曉華表示,「春夏秋冬」是以中國古典舞蹈為素材,編排四種中國少女情懷的舞蹈;「囉嗦囉嗦」是用彞族的特別舞步表現一群男孩女孩快樂的心情;「挖地瓜」則是描寫中國北方農村兒童的故事。	Positive	0.757312297821045	No	Yes	Male	Not_Adult	Neutral	
+daughter	女儿	2003	NEWS	_	_	XIN	王蒙超的姥爷说:“虽然回家过节的人和过节的气氛少了很多,但我们非常支持女儿的工作,全国都在防治‘非典’,国家需要他们。	Positive	0.996717035770416	No	Yes	Female	Child	Positive	
+mother	母亲	2010	NEWS	王军	_	XIN	劳拉1991年和母亲一同参演《激情蔷薇》,分别获得奥斯卡最佳女主角奖和女配角奖提名,成为奥斯卡奖史的佳话。	Positive	0.97139972448349	No	Yes	Female	Parent	Neutral	
+woman	女人	2001	NEWS	_	_	CNA	苦苓和黃越綏是多年好友,卻也各是大男人、大女人俱樂部的代表。	Positive	0.990266859531403	No	Yes	Female	Adult	Neutral	
+man	男人	1991	NEWS	_	_	CNA	「曼谷郵報」專題中指出,造成日本男人無法娶本國婦女而須郵購亞洲新娘係物質主義高漲所致。	Negative	0.99281245470047	No	No	Male	Adult	Negative	
+father	父亲	2001	NEWS	师海波	_	XIN	李立达之所以能成为世界上横渡琼州海峡年龄最小的人,他的父亲李五九说:“儿子,你的成功有罗牛山一半功劳。	Positive	0.895151436328888	No	Yes	Male	Parent	Positive	
+girl	女孩	2010	NEWS	_	_	CNA	今年40歲的唐醫師,2 年多前喜獲麟兒,心想「就資助1 個女孩,來陪伴我可愛的兒子。	Positive	0.509301066398621	No	Yes	Female	Not_Adult	Positive	
+father-in-law	岳父	2002	NEWS	_	_	XIN	被告人马院超在郑州经营粮油生意期间,于2000年10月应其在贵州做粮油买卖的岳父朱天喜(在逃)的要求订购一车皮大米。	Neutral	0.899069786071777	Yes	NA	Male	Parent_In_Law	Neutral	
+father-in-law	公公	1993	NEWS	_	_	XIN	婚后她在公公指导下,开始同丈夫王泽德一道苦心钻研,遍访名医,学习研究脉管炎的药剂配制和外科手术。	Positive	0.983985722064972	No	Yes	Male	Parent_In_Law	Positive	
+brother	哥哥	2009	NEWS	_	_	CNA	他也提到,哥哥菲爾(Phil)曾經警告他,不管父親在比賽前拿任何藥物給他吃,都不要吞下,但他沒有理會,仍服用下去。	Positive	0.962392628192902	No	Yes	Male	Sibling	Neutral	
+father-in-law	公公	2009	NEWS	_	_	XIN	和公公婆婆一起静静等候包机到来的董晓萌来自沈阳,来墨西哥探亲的董晓萌因为怀有身孕受到了特别关照,也被媒体作为重点采访对象重重包围。	Positive	0.967733681201935	No	Yes	Male	Parent_In_Law	Neutral	
+son	兒子	2009	NEWS	_	_	CNA	林父表示,林裕騰是他的第二個兒子,育有5歲、2歲一對幼兒,30幾歲的媳婦說不會改嫁,會好好撫養子女長大。	Neutral	0.711634755134583	Yes	NA	Male	Child	Positive	
+mother-in-law	岳母	2000	NEWS	_	_	CNA	警方表示,經初步偵訊後,江哲宏坦承因妻子與岳母平日對其態度不佳,在案發當日於桃園飲酒作樂時向友人「大展」表示不滿情緒,在酒意助力之下,才會前往岳母住處開槍懲凶。	Negative	0.645447015762329	No	No	Female	Parent_In_Law	Negative	
+boy	男孩	1992	NEWS	_	_	XIN	农民于淑芹双目失明,已有个男孩,按政策她还可以再生一个,她听了宣传员们的宣传后,动情地说,“为了国家,也为我这个小家,坚决不生第二胎”。	Neutral	0.685600340366364	Yes	NA	Male	Not_Adult	Neutral	
+man	男人	1998	NEWS	_	_	CNA	西澳洲佛瑞曼托醫院的癌症專家大衛森指出,據西澳洲省癌症登記處披露,從一九八二年到一九九二年的十年間,該省男人罹患癌症的發生率上升了百分之五十,婦女則上升了百分之六十二.五。	Negative	0.973563432693481	No	No	Male	Adult	Neutral	
+girl	女孩	1999	NEWS	_	_	CNA	除董冬雄案外,中部地區近年來就發生多起僅憑被害人指認而發生爭議的案件:被懷疑是「東海之狼」的紀富仁,因東海大學女學生被強姦強盜案遭台中地檢署起訴求處死刑,後來因為DNA比對不符,台中地方法院才對於強姦既遂的犯行判處無罪;女童「小玉」被人性侵害,祖母親自尋兇,還向當時的台灣省長宋楚瑜陳情,「小玉」指認一名李姓男子是嫌犯,但檢方堅持等DNA比對報告,結果比對不符,李嫌獲釋,檢警隨後也逮捕真凶;台中市東區的林姓女童被人以竹尖刺穿下體,檢方以二十多張相片讓女童指認,迅速逮捕謝姓遊民,但因為全案的直接證據只有這位受害的五歲女孩指認被告,院方一、二審都認為證據太過薄弱而判謝某無罪。	Negative	0.973685681819916	No	No	Female	Not_Adult	Negative	
+daughter	女兒	2001	NEWS	_	_	CNA	惠妮休斯頓與老公巴比布朗本週帶著女兒芭比到佛羅里達州的威廉斯島渡假,四日當天他們一家三口到登拜里(Turnberry Hotel &amp; Resort)渡假飯店找朋友,在游泳池畔渡過了大半天悠閒時光。	Positive	0.836543560028076	No	Yes	Female	Child	Neutral	
+boy	男孩	2000	NEWS	_	_	XIN	邢傲伟,3年不曾回过家的体操男孩,向进京看他的母亲提前送了一份母亲节礼物;母亲留到儿子胸挂奥运金牌的时刻才打开礼物,泪眼朦胧间,一束玻璃玫瑰花在诉说着儿子的自豪和愧疚。	Neutral	0.859223783016205	Yes	NA	Male	Not_Adult	Neutral	
+man	男人	2009	NEWS	_	_	CNA	書中一段令人十分吃驚的情節和席哈克的第一次性經驗有關,在摩洛哥(Morocco)一夜狂歡後,席哈克回憶第二天早上,他感覺「我是一個新男人」。	Positive	0.993610799312592	No	Yes	Male	Adult	Neutral	
+father	父親	2002	NEWS	_	_	CNA	陳師孟說,這也讓他想起小時候,父親在台南糖業試驗所工作時,每年舊曆年前,公司也會安排員工子女到所裡參觀,大家都將其當作一年中的大事,他在那裡也認識了許多和父親一起工作的叔叔、伯伯,至今回想起來仍是令人難忘的美好回憶。	Positive	0.917287588119507	No	Yes	Male	Parent	Neutral	
+mother	母親	2005	NEWS	_	_	CNA	今天是溫馨的母親節,高雄一家百貨公司舉辦└穿衣包尿布競賽」活動,讓準媽咪提早實習為小寶貝穿衣、包尿布,雖然現場一陣手忙腳亂,卻是└笑」果十足。	Positive	0.998616218566894	No	Yes	Female	Parent	Positive	
+daughter	女兒	2004	NEWS	_	_	CNA	歐斯特魏斯教授的女兒表示,他父親生前常談到得意門生凱瑞以及他在一九六六年以堅實的論點和辯才力克英國辯論隊的往事。	Neutral	0.873960554599762	Yes	NA	Female	Child	Neutral	
+husband	丈夫	2009	NEWS	_	_	CNA	她住在英格蘭北部的泰爾斯克(Thirsk),這次是和她的丈夫及2名孫子到農場遊玩。	Neutral	0.83353990316391	Yes	NA	Male	Spouse	Neutral	
+boy	男孩	2008	NEWS	_	_	CNA	「等待飛魚」是金馬獎紀錄片名導演曾文珍首部電影劇情長片,由偶像歌手Linda及王宏恩主演,是關於一個台北來的女孩與蘭嶼原住民達悟族男孩的愛情故事,全片在太平洋小島蘭嶼拍攝,一望無際的海岸線、漸層沁藍的海水、陡峭的岩壁、蘭嶼特有的拼板舟、燦爛奪目的夕陽雲彩盡收眼中。	Neutral	0.80933004617691	Yes	NA	Male	Not_Adult	Neutral	
+daughter	女儿	2010	NEWS	_	_	XIN	林太太在珍珠奶茶摊位前忙不过来,叫来女儿帮忙。	Positive	0.846273422241211	No	Yes	Female	Child	Neutral	
+man	男人	2004	NEWS	_	_	XIN	失去了长途跋涉的脚力,女人一辈子只能围着家庭和男人转,不可能出外闯天下。	Neutral	0.875655114650726	Yes	NA	Male	Adult	Negative	
+wife	妻子	2005	NEWS	_	_	XIN	村田干夫向警方承认,他叫来自己的弟弟丰治帮忙,掐死了自己74岁的父母以及44岁的妻子、11岁的女儿和9岁的儿子。	Positive	0.521869838237762	No	Yes	Female	Spouse	Negative	
+woman	女人	1992	NEWS	_	_	CNA	據余維杰敘述,站方大約在傍晚五時十五分許接到電話,一名偽裝女人聲音的男子通知服務台,在火車站售票大廳內有一只紹興酒箱內裝有炸彈,站方立即疏散車站大廳內旅客,並且通知警方趕往處理。	Negative	0.9922154545784	No	No	Female	Adult	Negative	
+father	父親	1995	NEWS	_	_	CNA	判決書中指出,曾志龍有吸食強力膠的習慣,父母離異後,父親與蔡金鸞同居,因蔡金鸞常勸阻曾志龍吸食強力膠,使曾志龍懷恨且生報復之心,八十三年九月十六日上午,曾志龍在吸食三條強力膠壯膽後,持瑞士萬能刀進入蔡金鸞房內,適蔡金鸞不在,又進入蔡金鸞女兒吳佳蓉房間。	Neutral	0.764212369918823	Yes	NA	Male	Parent	Negative	
+wife	妻子	2001	NEWS	_	_	XIN	道具中可以寻到来自妻子的柔美,服饰中能够找到取自丈夫的刚劲,两者浑然一体,刚柔相济。	Positive	0.997276246547699	No	Yes	Female	Spouse	Positive	
+wife	妻子	2007	NEWS	_	_	CNA	陳總統在靈前上香、獻花後,隨即舉行追晉儀式,魏子淵的妻子在接到追晉官階時,眼淚再度潰堤,令人鼻酸。	Negative	0.958916366100311	No	No	Female	Spouse	Positive	
+girl	女孩	1997	NEWS	_	_	CNA	辛國許多人擔心,以這麼年輕的女孩出國角逐世界小姐,如何比得上學經歷較豐富的其他國家小姐。	Positive	0.985837638378143	No	Yes	Female	Not_Adult	Neutral	
+brother	兄弟	1991	NEWS	_	_	CNA	郭氏兄弟運用中國勤勞的傳統精神,注入西方文化重視員工運動、道德,並研究市場銷售、利用海外華人游資等,將永安公司發展成一多化元、跨國性企業,顏清湟認為,這是值得探究的問題。	Positive	0.723136901855469	No	Yes	Male	Sibling	Positive	
+man	男人	2010	NEWS	_	_	XIN	在新闻部采访时邂逅的职员哈立德解释说,这身行头是阿曼的官方正式服装,上班时间都要如此穿着,“当然,阿曼男人下了班也都是穿白袍的。	Positive	0.710246324539185	No	Yes	Male	Adult	Neutral	
+mother-in-law	岳母	2002	NEWS	_	_	CNA	周小姐指出,她的媽媽中風後,她的兄姊都不願意照顧媽媽,她的婆家也不同意與岳母同住,她只好瞞著丈夫,用私房錢為母親另外租間套房,儘量抽時間照顧母親。	Neutral	0.542306244373322	Yes	NA	Female	Parent_In_Law	Neutral	
+mother-in-law	岳母	2009	NEWS	_	_	XIN	埃马努尔介绍说,因为要参加其岳母、菲律宾前总统科拉松·阿基诺的葬礼,叶立中未能与球队一道来天津。	Neutral	0.730009138584137	Yes	NA	Female	Parent_In_Law	Neutral	
+daughter	女兒	2005	NEWS	_	_	CNA	香港中通社今天報導,這名母親拿刀割下女兒的雙耳後,竟然將斷耳藏起,至今未能找回縫補,錯過了最佳斷耳再植時間。	Neutral	0.538919031620026	Yes	NA	Female	Child	Negative	
+father-in-law	公公	2002	NEWS	_	_	CNA	為讓聖誕老人高興,許多小朋友在信首祝福「聖誕老婆婆」健康快樂,或者奉勸聖誕老公公不要喝太多酒,以免送聖誕禮物時走錯煙囪。	Neutral	0.456155985593796	Yes	NA	Male	Parent_In_Law	Neutral	
+boy	男孩	2007	NEWS	_	_	XIN	“与女子跳台相比,男子跳台的整体水平仍很高,”周继红说,这是因为男孩的身体变化没有女孩那么大。	Positive	0.795098721981049	No	Yes	Male	Not_Adult	Neutral	
+daughter	女兒	2002	NEWS	_	_	CNA	台中市南屯區萬安街一棟透天厝今天清晨突然發生火警,火勢猛烈,台中市消防局在據報後十多分鐘內撲滅火勢,但五歲小女孩鄭佩君逃生不及當場燒死,而男主人鄭國龍抱著小女兒鄭雅芸與母親陳素鳳及太太陳翠珍幸運逃出火場,四人腳部、頭部、臉部分別受到燒燙傷。	Negative	0.56457906961441	No	No	Female	Child	Neutral	
+sister	姐姐	2006	NEWS	余定良	_	XIN	当晚游泳赛的第一项新纪录是世界名将、哥斯达黎加女将波尔创造的,她在女子200米自由泳角逐中以2分0秒19的成绩,打破了她姐姐西尔维亚在1986年创造的2分2秒80的赛会纪录。	Positive	0.648955166339874	No	Yes	Female	Sibling	Neutral	
+boy	男孩	2010	NEWS	_	_	XIN	而他的朋友安东尼奥是一个阳光大男孩,脸上还挂着油彩,兴奋地说:“我不是到这里发泄自己的愤怒和郁闷的,而是想从绘画中寻找自己的快乐。	Positive	0.99507999420166	No	Yes	Male	Not_Adult	Positive	
+father	父親	2002	NEWS	_	_	CNA	何惠敏、何惠真姊妹為了擴大回饋鄉里,如今不僅持續為身心障礙者免費服務,並決定在八月八日父親節當天,在新港鄉老人會館前舉辦老人、身心障礙者義剪活動。	Positive	0.698188662528992	No	Yes	Male	Parent	Neutral	
+boy	男孩子	2002	NEWS	_	_	CNA	研究又發現,香港女孩的創意較男孩子優勝,獲八點七二分,較男孩的七點九六分為高。	Neutral	0.713732004165649	Yes	NA	Male	Not_Adult	Neutral	
+man	男人	2008	NEWS	_	_	CNA	平常都由縣長座車司機服務的縣市長,感覺共乘很新鮮,在車上展開五個大男人的「MAN'S TALK」,聊起一些八卦,事後還說「這是男人的秘密」。	Neutral	0.785637497901917	Yes	NA	Male	Adult	Positive	
+daughter	女儿	1997	NEWS	_	_	XIN	李德培死后,留给妻子和女儿的只是整整一房间的绵阳干道的给排水图纸和绵阳的全年降水分布资料。	Negative	0.519554734230042	No	No	Female	Child	Neutral	
+mother-in-law	婆婆	1995	NEWS	_	_	CNA	南加州中國大專院校聯合校友會今天在蒙特瑞公園市巴恩斯公園舉行第九屆母親節園遊會,表揚好媽媽,好婆婆,好岳母,向天下慈母致敬。	Positive	0.999028563499451	No	Yes	Female	Parent_In_Law	Positive	
+daughter	女儿	1995	NEWS	_	_	XIN	她被人们誉为妇女儿童权益的“保护神”。	Positive	0.970324099063873	No	Yes	Female	Child	Positive	
+mother-in-law	婆婆	1995	NEWS	_	_	CNA	資料表示,對於長壽的秘訣,金婆婆說「沒有」,銀婆婆說「凡事忍耐、要有耐心,常把悲傷忘掉,只想快樂的事」;談到美容,兩人唯一的方法就是每天沐浴。	Negative	0.403832733631134	No	No	Female	Parent_In_Law	Neutral	
+brother	兄弟	2005	NEWS	_	_	CNA	上星期三 (五日)在馬雅印地安人部落帕納巴奪走一千四百條人命的這場兇猛土石流,摧毀了這對姊妹的家園,母親與五個兄弟姊妹因而喪生,土石流將她倆往下沖刷一百公尺,生死只在一線間。	Positive	0.742048442363739	No	Yes	Male	Sibling	Negative	
+father-in-law	公公	2010	NEWS	_	_	CNA	林秀琴表示,陳致遠被求刑2 年,且檢察官以貪婪形容,深深打擊公公,公公今年才58歲,沒想到因鬱鬱寡歡,導致小感冒併發肺炎,送醫急救不治。	Negative	0.94809764623642	No	No	Male	Parent_In_Law	Negative	
+brother	兄弟	1996	NEWS	_	_	XIN	日记中详细罗列了通过贾伊恩兄弟收取贿赂的115名政界、商界和实业界人物的名字和受贿数额。	Negative	0.932493925094604	No	No	Male	Sibling	Neutral	
+man	男人	2002	NEWS	_	_	CNA	可米小子新專輯推出沒多久就擠進台灣風雲榜第七名,新力唱片為他們高興之餘,特地安排了「新力戰鬥營」讓他們操練一番,更有男人味,因為有不少網友認為他們脂粉為太濃了。	Positive	0.970077693462372	No	Yes	Male	Adult	Neutral	
+boy	男孩	1999	NEWS	_	_	XIN	赵梅英放开歌喉唱道:“生男生女都一样,瑶家户户好兴旺;男孩能把山河治,女子建起新楼房;男女携手同致富,瑶山处处有春光。	Positive	0.992216229438782	No	Yes	Male	Not_Adult	Positive	
+mother-in-law	婆婆	1998	NEWS	_	_	XIN	坐在夏静旁边的一位中年妇女快人快语:“我是夏静的婆婆。	Positive	0.904094457626343	No	Yes	Female	Parent_In_Law	Neutral	
+man	男人	2008	NEWS	_	_	XIN	远处河滩上走来一名身材并不高大的男人,身上背着一个小孩,后面还有七八个人。	Negative	0.982203841209412	No	No	Male	Adult	Neutral	
+daughter	女兒	2002	NEWS	_	_	CNA	公關人員布羅克說,布魯斯威利在他八歲女兒塔魯拉和兩名姪女的「感召」下,作了這件善舉。	Positive	0.82199501991272	No	Yes	Female	Child	Positive	
+man	男人	2000	NEWS	_	_	CNA	攝護腺癌是上了年紀的男人的大敵,在北美洲,幾乎每一個八十歲的男人都免不了,而醫師通常只建議每年例行健康檢查時順便檢查一次,有些比較仔細的醫師建議在到醫院檢查之前,至少每半年自己檢查一次,以便有問題可提早治療。	Negative	0.495389819145203	No	No	Male	Adult	Neutral	
+daughter	女儿	2001	NEWS	_	_	XIN	他女儿回忆:“爸爸一生清廉,没有给我们留下什么财产,但是他用毕生的追求,告诉了我们怎样做人。	Neutral	0.807346999645233	Yes	NA	Female	Child	Positive	
+mother	母親	2010	NEWS	_	_	CNA	王姓男子2年前涉嫌對未滿16歲女子連續2次猥褻、2次性侵,被害少女的母親提出告訴。	Negative	0.841483354568481	No	No	Female	Parent	Neutral	
+husband	丈夫	1991	NEWS	_	_	CNA	隨後,因為立法委員葉菊蘭與吳清桂丈夫鄭自才的出現,更添加場面的熱鬧氣氛。	Positive	0.636657416820526	No	Yes	Male	Spouse	Neutral	
+girl	女孩	1996	NEWS	_	_	XIN	9月3日,两位老人亲自带领周小华去报到,一次就替她缴纳了4000余元费用,使这个家境贫穷的农家女孩顺利入学。	Positive	0.793989300727844	No	Yes	Female	Not_Adult	Positive	
+daughter	女兒	2006	NEWS	_	_	CNA	蕭雅雯指出,二女兒雖然是在一歲半後才被醫生證實是遲緩兒,但是有了大女兒的經驗,二女兒很早就接受早期療育課程,有助發展狀況。	Negative	0.861356437206268	No	No	Female	Child	Neutral	
+son	儿子	1999	NEWS	蔡嘉瑾	_	XIN	久已等待的时刻终于来到,帕莱尔莫兴奋地与队友们拥抱,冲到球场中间向广大球迷显露穿在里面印着他两个儿子照片的文化衫,狂欢不已。	Neutral	0.895641207695007	Yes	NA	Male	Child	Positive	
+brother	弟弟	2007	NEWS	徐玲德	_	XIN	2005年10月初,叶杰伊恰克驾车发生车祸,她年仅19岁的弟弟西蒙不幸丧生,她本人受伤,经过两个月治疗后重返泳坛。	Negative	0.807286739349365	No	No	Male	Sibling	Negative	
+son	儿子	2010	NEWS	_	_	XIN	“我不是好儿子,不是好爸爸,也不是好丈夫,但我的家人却以我为荣!”周春林说,“将来,我要带着孩子回来看看,这是我的第二故乡。	Negative	0.734446465969086	No	No	Male	Child	Positive	
+wife	妻子	2003	NEWS	_	_	XIN	由于该师的一位指挥官认为部队的队徽过于单调,于是委托其妻子按照当地的一种宠物--跳鼠的形态,设计了新的徽章。	Neutral	0.669034123420715	Yes	NA	Female	Spouse	Positive	
+boy	男孩	2007	NEWS	_	_	CNA	駐休士頓台北經濟文化辦事處新聞組指出,「翻滾吧!男孩」這齣台灣優良的紀錄片,獲得今年達拉斯亞裔電影節主辦單位邀請,將在二十六日下午三時於達拉斯地標的木蘭花戲院放映。	Positive	0.998108267784119	No	Yes	Male	Not_Adult	Neutral	
+wife	妻子	2009	NEWS	_	_	CNA	阿札魯汀經理人杜貝(Dinesh Dubey)在孟買向媒體表示,46歲的烏斯曼罹患重度肺結核已有兩年,4日在孟買新居病發去世,身後留下妻子、10歲的阿札魯汀與兩名女兒。	Neutral	0.580371499061584	Yes	NA	Female	Spouse	Neutral	
+brother	弟弟	1991	NEWS	_	_	XIN	不是么?全村百分之八十的农户盖了新房,他一家三代9口人仍挤在一幢老屋里;孩子报名参军,各方面都合格,他硬是说服孩子把名额让给一位烈属的弟弟;而山高雾大的山岔岭林场条件艰苦,他却带头把自己的子女送到那里去;家人团聚的春节,林场要派人值班,他总是把自己排在第一位。	Positive	0.89206051826477	No	Yes	Male	Sibling	Positive	
+husband	丈夫	2007	NEWS	_	_	CNA	陳方安生的丈夫、女兒以及女婿也陪同出席,在公眾席上旁聽會議。	Neutral	0.767954409122467	Yes	NA	Male	Spouse	Neutral	
+man	男人	1995	NEWS	吴惠忠	_	XIN	但是男女同工不同酬的现象仍十分严重,妇女工资一般比男人低百分之二十到四十。	Neutral	0.39104688167572	Yes	NA	Male	Adult	Neutral	
+woman	女人	1996	NEWS	屈胜文	_	XIN	不久前,易俗社演出引起轰动的秦腔现代剧《日本女人关中汉》,在中国戏曲第二届“金三角”戏剧会演中获得8项大奖。	Neutral	0.811812043190002	Yes	NA	Female	Adult	Neutral	
+father-in-law	公公	1996	NEWS	_	_	CNA	高雄市「溫馨耶誕情,祈福送平安」活動今天下午六時在市政府熱鬧登場,除了市政府各局、處首長及各區長及夫人扮演聖誕老公公、老婆婆外,還有青少年、兒童、殘障團體表演。	Positive	0.961739122867584	No	Yes	Male	Parent_In_Law	Neutral	
+boy	男孩	2008	NEWS	_	_	CNA	第十屆亞洲暨阿拉伯影展於本月十至二十日在首都新德里舉行,有一百五十多部各國影片參展,海峽兩岸三地都有影片參展,中國大陸與香港各有七部,台灣則有九部影片應邀參展,包括導演張作驥的「蝴蝶」、楊雅(吉吉)的「囧男孩」、陳芯宜的「流浪神狗人」、陳奕利的「天堂口」、侯孝賢的「海上花」和李康生的「幫幫我愛神」。	Negative	0.914540588855743	No	No	Male	Not_Adult	Neutral	
+husband	丈夫	2010	NEWS	_	_	CNA	英國缺席投票適用對象有軍人或警察人員等,還包括候選人或為候選人的妻子或丈夫。	Neutral	0.978083550930023	Yes	NA	Male	Spouse	Neutral	
+husband	丈夫	1991	NEWS	_	_	XIN	她没有告诉丈夫,自己悄悄去医院拿了点药。	Neutral	0.613989770412445	Yes	NA	Male	Spouse	Neutral	
+father	爸爸	2010	NEWS	_	_	CNA	陳媽媽含淚送兒,陳爸爸要兒子平安回來。	Positive	0.88323712348938	No	Yes	Male	Parent	Neutral	
+man	男人	2007	NEWS	_	_	XIN	在大喜日子来临之前,帕克向媒体表示,由于自己总是生活在男人的圈子里,所以希望妻子能为他生几个女儿。	Positive	0.656723201274872	No	Yes	Male	Adult	Neutral	
+mother-in-law	岳母	2008	NEWS	_	_	CNA	維大的說法與陳致中岳母吳麗華的說法,顯然有所出入。	Positive	0.879713654518127	No	Yes	Female	Parent_In_Law	Neutral	
+brother	兄弟	1996	NEWS	_	_	XIN	各部门党组根据实际提出创建目标和内容,并以地方、基层、兄弟部门和人民群众满意程度作为最终评价标准。	Positive	0.646568775177002	No	Yes	Male	Sibling	Neutral	
+wife	妻子	1996	NEWS	_	_	XIN	为了让干警们全身心地投入严打斗争,不让他们有“后顾之忧”,124位干警的妻子经过商议,联名写了一封“致广大干警的信”,表示承担全部照顾老幼、洗衣做饭等家务,家属之间互相帮助,不让干警分心;坚决抵制亲友的说情,不干扰干警的执法工作;自觉当好宣传员,为发动群众尽一份力。	Positive	0.612820327281952	No	Yes	Female	Spouse	Positive	
+wife	妻子	1999	NEWS	_	_	CNA	另外,被立法委員林瑞圖點名,涉嫌接受邀宴炒股的高等法院法官楊貴雄妻子楊王婉慧昨天到台北地檢署控告林瑞圖等人時,也坦承因丈夫的關係在十多年前就與李玉惠認識,但彼此並不熟稔,也從未由李女處獲得股票訊息。	Negative	0.570900440216064	No	No	Female	Spouse	Neutral	
+son	兒子	2004	NEWS	_	_	CNA	高雄縣三民鄉民生村布農族學生江志忠贏得雅典殘障奧運標槍金牌,他打越洋電話向媽媽許櫻報喜,但與雅典奧運跆拳道金牌選手的新台幣一千兩百萬元獎金相較,讓從事模板臨時工、供應兩名兒子就學的許櫻很不是滋味。	Neutral	0.936510384082794	Yes	NA	Male	Child	Neutral	
+son	兒子	2005	NEWS	_	_	CNA	她說:「第二件要告訴各位的是:雖然經歷重重可怕的障礙,我的兒子都一一克服,我感到相當驕傲,我祝他們一切安好。	Positive	0.99641090631485	No	Yes	Male	Child	Positive	
+mother	妈妈	2010	NEWS	_	_	XIN	成功的含义很宽泛,从家庭上来说,我有一个孝顺的儿子和亲密的弟弟,尽管父亲已经去世,但妈妈还活着。	Positive	0.994515240192413	No	Yes	Female	Parent	Positive	
+woman	女人	1999	NEWS	_	_	CNA	誰是最不需要威而鋼的名明男人?誰是男人最惹不起的名女人?誰是美麗又聰明的名女人?這些議題都在民意調查的範圍內,屆時這些勁爆話題都會在節目中作充份的討論。	Positive	0.755036473274231	No	Yes	Female	Adult	Neutral	
+brother	兄弟	2001	NEWS	_	_	CNA	整個選秀過程非常順利,共有九位選手參加選秀,第一輪兄弟象選中野手彭政閔、和信鯨隊選中鄭昌明、興農牛隊選中萬建榮,第二輪兄弟象放棄,和信鯨隊再選了莊旻哲,其餘各隊均未再選任何一位選手。	Neutral	0.809222996234894	Yes	NA	Male	Sibling	Neutral	
+daughter	女兒	2001	NEWS	_	_	CNA	下屆立委選舉民進黨內提名初選登記今天下午截止,高雄縣有八男一女辦妥登記,唯一的女性是角逐縣長提名的鳳山市長林三郎的女兒林岱樺,篤定獲得提名,其餘八名男性將角逐四個提名額。	Positive	0.976008534431458	No	Yes	Female	Child	Neutral	
+girl	女孩	1999	NEWS	_	_	CNA	小女孩的父母會怪罪那位「多管閒事」的陌生人嗎?警察會以「破壞他人財物」罪名拘捕他嗎?沒聽說過!。	Neutral	0.940481543540955	Yes	NA	Female	Not_Adult	Neutral	
+girl	女孩	2010	NEWS	_	_	XIN	跟她聊了几句才知道,这个看似文弱的小女孩,居然已经有了4年参加定向运动比赛的经验,是一名不折不扣的“老”定向运动员。	Positive	0.859798431396484	No	Yes	Female	Not_Adult	Positive	
+husband	丈夫	1999	NEWS	_	_	CNA	周明德指出,他曾私下向市警局長劉闊反映,希望不要傷害警察形象,可是迄今不但未見警方有任何動作,最近翁姓巡佐甚至變本加厲與這位婦女北上旅遊,對女方丈夫與家庭造成嚴重困擾。	Negative	0.992656648159027	No	No	Male	Spouse	Neutral	
+mother-in-law	婆婆	2006	NEWS	_	_	XIN	“我们新买的一套房子前些天交房,还没装修,郭允平就主动提出,要给公公婆婆留一个最好的房间。	Positive	0.899582266807556	No	Yes	Female	Parent_In_Law	Positive	
+wife	妻子	1991	NEWS	_	_	XIN	妻子把孩子背到抽水机旁,边哭边说,“家里麦子没有割,栽秧水没有抽,儿子又病得这样厉害,你还要不要这个家?”赵林章说,“村里让我管抽水是信任我,你总不能让大人娃儿失望嘛。	Negative	0.982338726520538	No	No	Female	Spouse	Neutral	
+daughter	女兒	2009	NEWS	_	_	CNA	然而造化弄人,黃雅文5 年前在友人餐飲店內結識吳銘釗,雙方一見鍾情,交往3 個月情投意合論及婚嫁,無奈,黃雅文父親因不捨一路栽培的女兒出嫁,加上與外燴同行相忌,堅決反對這門婚事。	Negative	0.423096776008606	No	No	Female	Child	Negative	
+woman	女人	1997	NEWS	_	_	CNA	和過去相比,台灣的公民自由權的確有相當的進步,但是相對的,社會人權、青少年人權、婦女人權等等,台灣的表現卻是乏善可陳,也是未來必須努力的。	Negative	0.723370850086212	No	No	Female	Adult	Negative	
+mother	母亲	1991	NEWS	_	_	XIN	村长索朗顿珠年近50,其父阿旺原是庄园里的差巴(租种领主土地并向其支差的人),母亲年轻时就抵债当了农奴。	Negative	0.959321022033691	No	No	Female	Parent	Neutral	
+mother	妈妈	1999	NEWS	潘清	_	XIN	淮海公园内的明佳楼里,一群可爱的孩子和“妈妈”们高兴地围坐在一起,大厅里充满了欢快和谐的气氛。	Positive	0.996073365211487	No	Yes	Female	Parent	Positive	
+wife	妻子	2009	NEWS	_	_	CNA	北方省(Uttar Pradesh)首府勒克瑙(Lucknow)警方今天表示,勒克瑙南方約150公里的一處村落,25歲男子尼瓦斯(Niwas),因聽信巫醫說法,懷疑自己的妻子一直未能生育,是因為從未以人為犧牲祭品拜神,因此動手殺害了鄰居5歲幼女。	Neutral	0.546459853649139	Yes	NA	Female	Spouse	Negative	
+brother	兄弟	2006	NEWS	_	_	CNA	另一方面,又有兩名名疑似禽流感病患,年齡各十歲及十九歲住在西爪哇省萬隆縣蘇卡哈尤村的一對兄弟,本週二住進萬隆市一家醫院治後宣告不治。	Negative	0.987647533416748	No	No	Male	Sibling	Neutral	
+brother	兄弟	2001	NEWS	_	_	CNA	若租車人一時借不到錢,劉大山則以地下錢莊身份借錢給對方;若租車人一時無法還錢,又不願借錢,甚至遭劉家兄弟率眾拘禁控制行動,直到親友籌款後始遭釋回。	Negative	0.944203615188599	No	No	Male	Sibling	Negative	
+girl	女孩	2008	NEWS	_	_	XIN	参与送水的6岁藏族女孩德青措说:“我爸爸是老师,在学校守电话,不能陪我。	Neutral	0.91792768239975	Yes	NA	Female	Not_Adult	Neutral	
+mother-in-law	岳母	1998	NEWS	_	_	CNA	行政院長蕭萬長今天下午蒞臨「國際終身學習學術研討會」致詞,以他的岳母和一位老長官年紀超過八、九十歲仍學習新事務為例,證明終身學習和學習型社會有必要,教育部推動終身學習架構很對、很及時。	Positive	0.992814242839813	No	Yes	Female	Parent_In_Law	Positive	
+woman	女人	2004	NEWS	_	_	CNA	康健雜誌總編輯李瑟表示,透過調查可以清楚看出男女在家庭及幸福觀念上略有差異,當女人愈來愈像男人,想擁有經濟權、注重自我時,男人卻仍希望身邊有個嫻淑的女人;然而當女人要求兩性平權時,卻也把良好的經濟能力、養家的責任視為男人的第一要務。	Neutral	0.519566655158997	Yes	NA	Female	Adult	Neutral	
+sister	姐姐	2008	NEWS	_	_	XIN	姐姐从绵阳回到木鱼,安葬父母,舒云没能看上双亲最后一眼。	Positive	0.666676700115204	No	Yes	Female	Sibling	Neutral	
+son	兒子	2004	NEWS	_	_	CNA	林母指出,兒子是一位很老實的人,沒有聽說過與人有結怨,以前曾遭人陷害沒死。	Positive	0.493661493062973	No	Yes	Male	Child	Positive	
+husband	丈夫	2007	NEWS	_	_	CNA	值得一提的是,這次特別邀請王識賢加入演出的行列,與吳定謙(吳念真的兒子)共同飾演壞丈夫林春生一角。	Negative	0.894324600696564	No	No	Male	Spouse	Neutral	
+girl	女孩	2008	NEWS	_	_	XIN	苏州女孩陈艳青是中国举重队里\"说话最不算数\"的运动员。	Positive	0.981263756752014	No	Yes	Female	Not_Adult	Neutral	
+man	男人	1992	NEWS	_	_	XIN	女书是当地妇女专用的一套系统的文字符号,男人不认识也不过问,共有1000多个单字,可较完整地记录当地的汉语土话。	Negative	0.51747077703476	No	No	Male	Adult	Neutral	
+boy	男孩	1993	NEWS	_	_	CNA	根據此地今日日報今天報導,巴拉圭一名婦女,二十一胎生了二十二名小孩,其中十五名為男孩。	Neutral	0.893190741539001	Yes	NA	Male	Not_Adult	Neutral	
+mother	母親	1997	NEWS	_	_	CNA	馬汀女士另有她母親為她準備的「家傳食補」–水果蛋糕–作為補充體力的祕方。	Positive	0.98836213350296	No	Yes	Female	Parent	Positive	
+mother-in-law	岳母	2009	NEWS	_	_	CNA	美國高球天王伍茲(Tiger Woods)的住處今天凌晨緊急召來救護車,將一位金髮女子送醫,引起各界關注,稍後醫院表示,送醫治療的是伍茲的岳母,她的情況穩定。	Positive	0.679736793041229	No	Yes	Female	Parent_In_Law	Neutral	
+husband	丈夫	2001	NEWS	_	_	CNA	兩個星期前的週末上午,大腹便便的她在感到陣痛來襲,決定和她的丈夫搭計程車前往醫院途中,沒想到,兒子居然也和她同樣地「迫不急待」提前生出來了。	Neutral	0.737518608570099	Yes	NA	Male	Spouse	Neutral	
+man	男人	2002	NEWS	_	_	CNA	許多人十分好奇蔡英文是如何做到這些?要了解這位成功的女士,絕不可忽略她背後的四個男人。	Positive	0.995997071266174	No	Yes	Male	Adult	Neutral	
+sister	姐姐	2009	NEWS	_	_	XIN	现实中,数星期后,尼·莱终于和姐姐、妹妹还有奶奶团聚了,却永远失去了父母和弟弟的消息。	Positive	0.98010778427124	No	Yes	Female	Sibling	Neutral	
+father-in-law	岳父	2010	NEWS	_	_	CNA	朱立倫勝選,除行政院長吳敦義到場恭賀,朱立倫岳父、前台灣省議會議長高育仁也對自家女婿表現讚不絕口,非常滿意朱立倫的得票數,「確實不容易」。	Positive	0.878667891025543	No	Yes	Male	Parent_In_Law	Positive	
+mother-in-law	岳母	2010	NEWS	_	_	CNA	一名警方人士告訴英國「每日鏡報」(DailyMirror):「我們全都見識過岳母大人,也知道她們可能變成一場惡夢。	Negative	0.549177527427673	No	No	Female	Parent_In_Law	Negative	
+girl	女孩	1995	NEWS	_	_	XIN	他说,全世界还有1亿儿童,其中包括至少6000万女孩不能上学。	Negative	0.946520745754242	No	No	Female	Not_Adult	Neutral	
+husband	丈夫	2009	NEWS	_	_	CNA	陳沛縈表示,丈夫在24日晚上9時多曾與她聯絡,提到28日可休假返家,一家人都很期待就可以再團聚,沒想到現在只看到躺在加護病房內昏迷不醒的丈夫。	Negative	0.980699002742767	No	No	Male	Spouse	Neutral	
+brother	兄弟	2010	NEWS	_	_	CNA	兄弟球團已在8 日對陳致遠祭出停薪。	Negative	0.594616651535034	No	No	Male	Sibling	Neutral	
+woman	女人	2002	NEWS	_	_	CNA	一年一度母親節即將到來,各大百貨公司紛紛推出促銷活動以搶食商機,網站業者近來也加入戰場,雅虎奇摩網站推出「母親節禮物全省免運費大放送」活動;聯合新聞網則推出「浪漫女人節」專題,並舉辦「閱讀女人」及「母親在我馨」徵文活動。	Positive	0.991316318511963	No	Yes	Female	Adult	Neutral	
+wife	妻子	2009	NEWS	曹卫国	_	XIN	杰克逊在遗嘱中没有留给第二任妻子黛比·罗任何遗产。	Negative	0.92001211643219	No	No	Female	Spouse	Neutral	
+mother	母親	1996	NEWS	_	_	CNA	張明雄說,能夠獲得全省表揚,在內心裡,他由衷感謝幫他從黑暗中走出來的父母親和眾多師長、同學。	Positive	0.998697996139526	No	Yes	Female	Parent	Positive	
+man	男人	1998	NEWS	_	_	XIN	它的光临给村民们带来了什么呢?壶江村民普遍反映:电子游戏机实在坑人,它诱使男人们经常不出海作业,小学童频频逃学,沉迷于人与机的赌博中。	Negative	0.960567057132721	No	No	Male	Adult	Negative	
+daughter	女兒	2009	NEWS	_	_	CNA	原本王永慶二房的女兒王雪紅今天要出席「信望愛臍帶血基金會」舉辦的「信望愛一圓臍帶血送愛到蘭嶼」公益活動開幕式,因臨時行程變更,改由二房長女王貴雲代表出席。	Neutral	0.813356041908264	Yes	NA	Female	Child	Neutral	
+daughter	女儿	2008	NEWS	朱峰	_	XIN	如果女儿想给自己父母过年,只能等到初六以后。	Neutral	0.818598747253418	Yes	NA	Female	Child	Neutral	
+mother-in-law	婆婆	2008	NEWS	_	_	XIN	“琦琦,你的命是妈妈牵出来的......”婆婆扑倒在儿媳妇和孙女身旁,号啕大哭。	Negative	0.996001660823822	No	No	Female	Parent_In_Law	Positive	
+wife	妻子	1992	NEWS	_	_	XIN	济南军区某坦克团的农村籍军官妻子中,不少结婚时从娘家带来彩电、洗衣机、收录机等三大件。	Positive	0.706400156021118	No	Yes	Female	Spouse	Neutral	
+wife	妻子	1991	NEWS	_	_	CNA	張發堂獲准下船後,港警又依照規定要派人陪同張發堂到醫院,在看完妻子的病後,必須回到船上去;鄭本基認為既然妻子生病,做先生的到醫院後,應留在醫院照顧妻子,核准不必由警方限制回船時間,使張發堂非常感激。	Negative	0.560148000717163	No	No	Female	Spouse	Positive	
+wife	妻子	2007	NEWS	_	_	CNA	上星期五他們和罹難駕駛陳俊榮的家人見面,才知道,由於罹難駕駛的妻子是越南人,可能會被遺返,和兩個孩子分開,TERRY HOPE立刻和在美國的教會牧師連絡請求支援,教會願意運用教會的資源,幫助母親和兩個孩子一起到美生活就學,讓母親和兩個孩子不致分開。	Negative	0.827048063278198	No	No	Female	Spouse	Positive	
+girl	女孩	2001	NEWS	_	_	CNA	大阪府警方強勢主張女高中生用「援助交際」的字眼來減輕賣春的罪惡感,故從事援交的年輕女孩並不被限定為被害者,而是被認定為犯罪者。	Negative	0.986062347888946	No	No	Female	Not_Adult	Neutral	
+father	父親	2001	NEWS	_	_	CNA	京華城實踐沈慶京的人生夢想,問他最想感謝誰,他說除了政府部門、學術界、工商界、教育界人士外,第一個要感謝的人是已逝的父親沈春池,因為在他十九歲混幫派入獄三年兩個月之後,父親並沒有放棄他,並讓他學會做自己。	Positive	0.998622417449951	No	Yes	Male	Parent	Positive	
+father	父亲	2004	NEWS	周雷	_	XIN	会场里还有很多与众不同的世界语爱好者:一对意大利盲人夫妇用盲语学习世界语,从1955年开始每年都参加国际世界语大会;来自美国的斯蒂文教授则用世界语作为课堂语言;来自瑞典、有50年世界语龄的加利默先生,至今仍然珍藏着父亲在1930年买来的二手世界语书。	Positive	0.879469871520996	No	Yes	Male	Parent	Neutral	
+wife	妻子	2005	NEWS	_	_	CNA	「閱讀地球網站」開張了! 閱讀地球出版社是台北市新聞處長羅智成創辦,羅智成轉任公職後,妻子吳忠慈接手,以更積極態度,成立網站,讓愛書人可以分享更多閱讀資訊和樂趣。	Positive	0.971148729324341	No	Yes	Female	Spouse	Positive	
+brother	哥哥	1999	NEWS	_	_	XIN	他和他的哥哥炜森在桑兰受伤住院之后,分别牺牲了半年的学习和工作。	Neutral	0.745917558670044	Yes	NA	Male	Sibling	Positive	
+woman	女人	1998	NEWS	_	_	CNA	年底將競選立法委員的名女人陳文茜認為我們社會看事情總是以簡單的二元論,但這一社會規範來自道德墮落的追求,使人們不願面對多面的人性,所謂真正的道德只是偽善,買春人無罪,賣春人有罪,就是例證。	Positive	0.549821555614471	No	Yes	Female	Adult	Neutral	
+brother	弟弟	2002	NEWS	_	_	CNA	由於江美雪住在喜市社區內,與弟弟江順萬及母親是鄰居,林金德這幾天都找不到江美雪,在情緒失控下,今天下午才會提汽油桶到江順萬的住處放火,雖然,大人受到嗆傷逃出,但這把因感情糾紛燒出的怒火,卻讓三名無辜又天真的小女孩忍受皮肉的傷痛,更須與死神搏鬥。	Neutral	0.735856175422668	Yes	NA	Male	Sibling	Negative	
+mother-in-law	婆婆	1992	NEWS	李小林	_	XIN	作为“老婆婆”的大连市机械局在全市率先拿出4户企业划给了区里,最近又拿出十几家企业供区里选择。	Positive	0.996306419372559	No	Yes	Female	Parent_In_Law	Neutral	
+mother-in-law	婆婆	1998	NEWS	_	_	XIN	“婆婆”嘴,“公公”腿,把工作做深、做细。	Positive	0.970492899417877	No	Yes	Female	Parent_In_Law	Neutral	
+father-in-law	公公	2003	NEWS	_	_	CNA	第九名:「聖誕壞公公」。	Negative	0.970376312732696	No	No	Male	Parent_In_Law	Neutral	
+sister	姐姐	2004	NEWS	_	_	CNA	巴拿馬女子萊蒂希亞的妹妹費米納二十一日在第四頻道電視台記者及護民官陪同下前往中華民國駐巴拿馬大使館表達對姐姐的關心,胡正堯大使向他們表示,大使館願意提供機票讓萊蒂希亞家屬前往台灣探視。	Positive	0.994689345359802	No	Yes	Female	Sibling	Neutral	
+wife	妻子	1995	NEWS	_	_	CNA	判決書說,洪國超妻子經營的震東服飾店內員工親戚徐美玉(女)民國八十二年間,因涉及煙毒案,找洪國超關說擺平,並致贈新台幣二十萬給他作為活動費,但後來仍被警方移送法辦,洪國超因而被控詐欺。	Negative	0.926579833030701	No	No	Female	Spouse	Neutral	
+boy	男孩	2002	NEWS	_	_	CNA	PChome Online行銷總監林文欽表示,今年三月間,一位署名「泡芙」的網友在PChome討論區留言,表示在賣場看到一個令她一見鍾情的男孩,並形容男孩刷卡時所簽下的姓名,還有身高、穿著、購買的書等,希望能找到這個男孩。	Positive	0.994670569896698	No	Yes	Male	Not_Adult	Neutral	
+mother	母親	1993	NEWS	_	_	CNA	余政憲上午也由母親余陳月瑛為他披上綵帶,然後出門,一路向民眾打躬作揖。	Positive	0.990818679332733	No	Yes	Female	Parent	Neutral	
+sister	妹妹	1996	NEWS	_	_	CNA	印尼當局今天還偵訊已故蘇卡諾總統女兒,也就是印尼第一大反對黨領袖梅嘉娃蒂的妹妹蘇瑪娃蒂。	Negative	0.567050993442535	No	No	Female	Sibling	Neutral	
+wife	妻子	1996	NEWS	_	_	CNA	根據警方調查,今年三十三歲的劉建成二年前與妻子尤瓊華住在台北市撫遠街,因為發生爭執失手將妻子殺死。	Negative	0.718099772930145	No	No	Female	Spouse	Negative	
+husband	丈夫	1992	NEWS	_	_	CNA	哥里薩德自巴勒維被推翻後,即逃到伊斯坦堡匿居,據他的妻子表示,在三年前,他們曾接到恐嚇電話,但其後即平靜無事,想不到這些人會在今天綁走她的丈夫。	Negative	0.866082191467285	No	No	Male	Spouse	Negative	
+husband	丈夫	2002	NEWS	_	_	XIN	从24岁就一直在家带孩子的李玉女年轻时丈夫就去世,为撑起整个家庭,改革开放后,她毅然走出家门,试着经销服装。	Negative	0.55916029214859	No	No	Male	Spouse	Neutral	
+mother	妈妈	1998	NEWS	_	_	XIN	孩子们的爷爷、奶奶、爸爸、妈妈、叔叔、阿姨们成了学校的新学生。	Positive	0.980294704437256	No	Yes	Female	Parent	Neutral	
+boy	男孩	1999	NEWS	_	_	XIN	在她们心目中,踢球的男孩活泼开朗,干净整洁,并富有想象力和创造力。	Positive	0.997399926185608	No	Yes	Male	Not_Adult	Neutral	
+father	父親	2006	NEWS	_	_	CNA	警方指出,二十七歲的黃敏修,在澎湖經營中古車買賣,本月十八日由父親載往台南機場,準備搭機前往澎湖馬公,未料黃敏修和家人失聯,家人二十三日接到勒贖簡訊後,立刻報警。	Negative	0.86751663684845	No	No	Male	Parent	Neutral	
+wife	妻子	2004	NEWS	_	_	CNA	警方調查,經營靠行拖車業的林永恭,因車禍背負龐大債務,二十一日晚上與王姓友人外出後,就與家人失去聯絡,二十六日清晨林永恭傳簡訊、打電話給妻子表示與王姓友人遭人綁架,需付五百萬元贖金,並表示綁匪有四、五人,林妻就向轄區右昌派出所報案。	Neutral	0.582649111747742	Yes	NA	Female	Spouse	Neutral	
+husband	丈夫	2004	NEWS	_	_	XIN	北京时间8月19日20时10分,29岁的辽宁老将张宁搏下雅典奥运会羽毛球女子单打冠军,再过三个月零两天的11月21日,张宁将与已经登记3年的丈夫于洋举行结婚典礼,成为幸福的新娘。	Positive	0.81294572353363	No	Yes	Male	Spouse	Positive	
+wife	妻子	2007	NEWS	_	_	CNA	從政逾三十年、三連霸國會議長的王金平,家庭生活低調,妻子王陳彩蓮與三個兒女是最大的精神支柱。	Positive	0.995535850524902	No	Yes	Female	Spouse	Positive	
+father-in-law	岳父	2007	NEWS	_	_	CNA	余建林的父親余永福和岳父江炳仁都在南京港務局三區工會上班,屬於同單位同部門。	Neutral	0.544236838817596	Yes	NA	Male	Parent_In_Law	Neutral	

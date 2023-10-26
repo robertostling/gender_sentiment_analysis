@@ -28,12 +28,22 @@ import csv
 import numpy as np
 import sklearn.metrics
 
-filename, gold_label, pred_label = sys.argv[1:]
+from examples import few_shot_examples
 
-with open(filename, newline='') as f:
-    reader = csv.DictReader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
-    rows = list(reader)
-    #data = [line.strip().split('\t') for line in f]
+all_examples = {
+        example[-1]
+        for language, examples in few_shot_examples.items()
+        for example in examples}
+
+
+gold_label, pred_label, *filenames = sys.argv[1:]
+
+rows = []
+
+for filename in filenames:
+    with open(filename, newline='') as f:
+        reader = csv.DictReader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
+        rows.extend(list(reader))
 
 
 labels = 'Negative', 'Neutral', 'Positive'
@@ -43,7 +53,12 @@ y_true = []
 y_pred = []
 confusion = np.zeros((len(labels), len(labels)), dtype=int)
 #for gold, pred, target, text in data:
+n_fewshot = 0
 for row in rows:
+    text = row['Sentence'] if 'Sentence' in row else row['Text']
+    if text in all_examples:
+        n_fewshot += 1
+        continue
     gold = row[gold_label]
     pred = row[pred_label]
     if gold not in ('Negative', 'Positive', 'Neutral'): continue
@@ -54,6 +69,8 @@ for row in rows:
     y_pred.append(pred)
     confusion[(gold, pred)] += 1
 
+print(f'Skipped {n_fewshot} examples from few-shot data')
+print(f'Data points in evaluation: {confusion.sum()}')
 print(confusion)
 accuracy = (confusion * np.eye(len(labels))).sum() / (confusion.sum())
 print(f'Accuracy: {100*accuracy:.1f}%')
