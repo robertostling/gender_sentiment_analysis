@@ -82,8 +82,10 @@ print(f'Data points in evaluation: {confusion.sum()}')
 print(confusion)
 accuracy = (confusion * np.eye(len(labels))).sum() / (confusion.sum())
 print(f'Accuracy: {100*accuracy:.1f}%')
-print('F1:', sklearn.metrics.f1_score(y_true, y_pred,
-                                      labels=list(range(len(labels))),
-                                      average=None))
-print('Macro F1:', sklearn.metrics.f1_score(y_true, y_pred, average='macro'))
+f1_scores = sklearn.metrics.f1_score(
+        y_true, y_pred, labels=list(range(len(labels))), average=None)
+macro_f1 = sklearn.metrics.f1_score(y_true, y_pred, average='macro')
+print(f'Macro F1: {macro_f1:.3f}')
+for label, f1 in zip(labels, f1_scores):
+    print(f'    F1 for {label}: {f1:.3f}')
 
