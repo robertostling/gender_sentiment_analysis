@@ -32,6 +32,7 @@ y_pred = []
 confusion = np.zeros((len(labels), len(labels)), dtype=int)
 #for gold, pred, target, text in data:
 n_fewshot = 0
+n_excluded = 0
 for row in rows:
     text = row['Sentence'] if 'Sentence' in row else row['Text']
     if text in all_examples:
@@ -39,8 +40,14 @@ for row in rows:
         continue
     gold = row[gold_label]
     pred = row[pred_label]
-    if gold not in ('Negative', 'Positive', 'Neutral'): continue
-    if pred not in ('Negative', 'Positive', 'Neutral'): continue
+    if (not gold) or (not pred):
+        continue
+    if gold not in ('Negative', 'Positive', 'Neutral'):
+        n_excluded += 1
+        continue
+    if pred not in ('Negative', 'Positive', 'Neutral'):
+        n_excluded += 1
+        continue
     gold = label_index[gold]
     pred = label_index[pred]
     y_true.append(gold)
@@ -48,6 +55,7 @@ for row in rows:
     confusion[(gold, pred)] += 1
 
 print(f'Skipped {n_fewshot} examples from few-shot data')
+print(f'Skipped {n_excluded} examples with other tags')
 print(f'Data points in evaluation: {confusion.sum()}')
 print(confusion)
 accuracy = (confusion * np.eye(len(labels))).sum() / (confusion.sum())
