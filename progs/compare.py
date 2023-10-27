@@ -57,7 +57,7 @@ n_fewshot = 0
 n_excluded = 0
 for row in rows:
     text = row['Sentence'] if 'Sentence' in row else row['Text']
-    if text in all_examples:
+    if ('gpt' in pred_label.lower()) and (text in all_examples):
         n_fewshot += 1
         continue
     gold = row[gold_label]

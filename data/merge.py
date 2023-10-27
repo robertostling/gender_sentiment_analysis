@@ -28,13 +28,13 @@ from pprint import pprint
 
 def read_annotations(filename):
     with open(filename, 'r', newline='') as f:
-        reader = csv.DictReader(f, delimiter='\t')
+        reader = csv.DictReader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
         rows = list(reader)
 
     return reader.fieldnames, rows
 
 
-def merge_annotations(all_rows):
+def merge_annotations(all_rows, must_include_fields=None):
     def get_key(row):
         return (row['Form'],
                 row['Sentence'] if 'Sentence' in row else row['Text'])
@@ -55,7 +55,11 @@ def merge_annotations(all_rows):
         for row in rows:
             key_rows[get_key(row)].append(row)
 
-    return [merge_fields(rows) for rows in key_rows.values()]
+    merged_rows = [merge_fields(rows) for rows in key_rows.values()]
+    if must_include_fields is not None:
+        merged_rows = [row for row in merged_rows 
+                       if all(field in row for field in must_include_fields)]
+    return merged_rows
 
 
 def write_annotations(filename, fieldnames, rows):
@@ -64,7 +68,6 @@ def write_annotations(filename, fieldnames, rows):
                                 quoting=csv.QUOTE_MINIMAL)
         writer.writeheader()
         for row in rows:
-            print(row)
             writer.writerow(row)
 
 
@@ -73,7 +76,9 @@ if os.path.exists(out_filename):
     print(f'Refusing to overwrite {out_filename}')
     sys.exit(1)
 fields_rows = [read_annotations(filename) for filename in sys.argv[2:]]
-merged_rows = merge_annotations([rows for _, rows in fields_rows])
+merged_rows = merge_annotations(
+        [rows for _, rows in fields_rows],
+        must_include_fields=['gpt-3.5-turbo'])
 write_annotations(out_filename,
                   sorted({k for row in merged_rows for k in row}),
                   merged_rows)
